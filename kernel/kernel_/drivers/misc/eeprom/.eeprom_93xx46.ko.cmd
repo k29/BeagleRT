@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/eeprom_93xx46.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/misc/eeprom/eeprom_93xx46.ko drivers/misc/eeprom/eeprom_93xx46.o drivers/misc/eeprom/eeprom_93xx46.mod.o

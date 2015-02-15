@@ -1,0 +1,1 @@
+cmd_drivers/video/omap2/displays-new/panel-dpi.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/video/omap2/displays-new/panel-dpi.ko drivers/video/omap2/displays-new/panel-dpi.o drivers/video/omap2/displays-new/panel-dpi.mod.o

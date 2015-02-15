@@ -1,0 +1,1 @@
+cmd_crypto/blowfish_common.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o crypto/blowfish_common.ko crypto/blowfish_common.o crypto/blowfish_common.mod.o

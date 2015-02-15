@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.ko drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.o drivers/media/usb/dvb-usb-v2/dvb-usb-anysee.mod.o

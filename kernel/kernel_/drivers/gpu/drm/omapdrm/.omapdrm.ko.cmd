@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/omapdrm/omapdrm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/gpu/drm/omapdrm/omapdrm.ko drivers/gpu/drm/omapdrm/omapdrm.o drivers/gpu/drm/omapdrm/omapdrm.mod.o

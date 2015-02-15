@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_mr97310a.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/gspca_mr97310a.ko drivers/media/usb/gspca/gspca_mr97310a.o drivers/media/usb/gspca/gspca_mr97310a.mod.o

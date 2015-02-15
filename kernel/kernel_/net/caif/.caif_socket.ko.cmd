@@ -1,0 +1,1 @@
+cmd_net/caif/caif_socket.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/caif/caif_socket.ko net/caif/caif_socket.o net/caif/caif_socket.mod.o

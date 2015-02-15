@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_jl2005bcd.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/gspca_jl2005bcd.ko drivers/media/usb/gspca/gspca_jl2005bcd.o drivers/media/usb/gspca/gspca_jl2005bcd.mod.o

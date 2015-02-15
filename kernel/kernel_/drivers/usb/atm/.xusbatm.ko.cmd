@@ -1,0 +1,1 @@
+cmd_drivers/usb/atm/xusbatm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/atm/xusbatm.ko drivers/usb/atm/xusbatm.o drivers/usb/atm/xusbatm.mod.o

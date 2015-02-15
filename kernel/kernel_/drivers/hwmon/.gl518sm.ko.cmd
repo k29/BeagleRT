@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/gl518sm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/gl518sm.ko drivers/hwmon/gl518sm.o drivers/hwmon/gl518sm.mod.o

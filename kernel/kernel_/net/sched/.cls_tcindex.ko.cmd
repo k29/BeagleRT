@@ -1,0 +1,1 @@
+cmd_net/sched/cls_tcindex.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/cls_tcindex.ko net/sched/cls_tcindex.o net/sched/cls_tcindex.mod.o

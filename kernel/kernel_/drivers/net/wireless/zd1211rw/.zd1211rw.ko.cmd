@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/zd1211rw/zd1211rw.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/zd1211rw/zd1211rw.ko drivers/net/wireless/zd1211rw/zd1211rw.o drivers/net/wireless/zd1211rw/zd1211rw.mod.o

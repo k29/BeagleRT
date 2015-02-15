@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/gpio-fan.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/gpio-fan.ko drivers/hwmon/gpio-fan.o drivers/hwmon/gpio-fan.mod.o

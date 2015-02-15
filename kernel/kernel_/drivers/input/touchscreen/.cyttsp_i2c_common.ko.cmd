@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/cyttsp_i2c_common.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/cyttsp_i2c_common.ko drivers/input/touchscreen/cyttsp_i2c_common.o drivers/input/touchscreen/cyttsp_i2c_common.mod.o

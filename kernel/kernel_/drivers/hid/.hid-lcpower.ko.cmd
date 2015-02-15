@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-lcpower.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-lcpower.ko drivers/hid/hid-lcpower.o drivers/hid/hid-lcpower.mod.o

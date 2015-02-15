@@ -1,0 +1,1 @@
+cmd_drivers/net/appletalk/ipddp.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/appletalk/ipddp.ko drivers/net/appletalk/ipddp.o drivers/net/appletalk/ipddp.mod.o

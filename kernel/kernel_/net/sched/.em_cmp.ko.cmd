@@ -1,0 +1,1 @@
+cmd_net/sched/em_cmp.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/em_cmp.ko net/sched/em_cmp.o net/sched/em_cmp.mod.o

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_exthdr.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/nft_exthdr.ko net/netfilter/nft_exthdr.o net/netfilter/nft_exthdr.mod.o

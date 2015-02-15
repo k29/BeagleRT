@@ -1,0 +1,1 @@
+cmd_net/sched/sch_multiq.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/sch_multiq.ko net/sched/sch_multiq.o net/sched/sch_multiq.mod.o

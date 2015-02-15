@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/f75375s.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/f75375s.ko drivers/hwmon/f75375s.o drivers/hwmon/f75375s.mod.o

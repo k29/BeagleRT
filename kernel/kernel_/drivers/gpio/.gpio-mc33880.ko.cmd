@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-mc33880.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/gpio/gpio-mc33880.ko drivers/gpio/gpio-mc33880.o drivers/gpio/gpio-mc33880.mod.o

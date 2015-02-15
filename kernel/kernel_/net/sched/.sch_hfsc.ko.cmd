@@ -1,0 +1,1 @@
+cmd_net/sched/sch_hfsc.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/sch_hfsc.ko net/sched/sch_hfsc.o net/sched/sch_hfsc.mod.o

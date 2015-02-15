@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/st_sensors/st_sensors_i2c.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/common/st_sensors/st_sensors_i2c.ko drivers/iio/common/st_sensors/st_sensors_i2c.o drivers/iio/common/st_sensors/st_sensors_i2c.mod.o

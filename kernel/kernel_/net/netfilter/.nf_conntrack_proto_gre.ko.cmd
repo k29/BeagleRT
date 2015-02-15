@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_proto_gre.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_proto_gre.ko net/netfilter/nf_conntrack_proto_gre.o net/netfilter/nf_conntrack_proto_gre.mod.o

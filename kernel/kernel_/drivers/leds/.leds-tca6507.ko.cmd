@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-tca6507.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/leds/leds-tca6507.ko drivers/leds/leds-tca6507.o drivers/leds/leds-tca6507.mod.o

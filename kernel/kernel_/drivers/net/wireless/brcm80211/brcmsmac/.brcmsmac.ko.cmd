@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/brcm80211/brcmsmac/brcmsmac.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/brcm80211/brcmsmac/brcmsmac.ko drivers/net/wireless/brcm80211/brcmsmac/brcmsmac.o drivers/net/wireless/brcm80211/brcmsmac/brcmsmac.mod.o

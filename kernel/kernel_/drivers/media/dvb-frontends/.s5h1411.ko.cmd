@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/s5h1411.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/s5h1411.ko drivers/media/dvb-frontends/s5h1411.o drivers/media/dvb-frontends/s5h1411.mod.o

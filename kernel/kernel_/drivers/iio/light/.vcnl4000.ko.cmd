@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/vcnl4000.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/light/vcnl4000.ko drivers/iio/light/vcnl4000.o drivers/iio/light/vcnl4000.mod.o

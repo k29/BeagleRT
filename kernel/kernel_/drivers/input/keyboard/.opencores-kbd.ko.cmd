@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/opencores-kbd.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/keyboard/opencores-kbd.ko drivers/input/keyboard/opencores-kbd.o drivers/input/keyboard/opencores-kbd.mod.o

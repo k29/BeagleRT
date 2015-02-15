@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/marvell.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/phy/marvell.ko drivers/net/phy/marvell.o drivers/net/phy/marvell.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ad7879-i2c.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ad7879-i2c.ko drivers/input/touchscreen/ad7879-i2c.o drivers/input/touchscreen/ad7879-i2c.mod.o

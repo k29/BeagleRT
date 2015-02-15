@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/inexio.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/inexio.ko drivers/input/touchscreen/inexio.o drivers/input/touchscreen/inexio.mod.o

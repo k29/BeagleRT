@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/davicom.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/phy/davicom.ko drivers/net/phy/davicom.o drivers/net/phy/davicom.mod.o

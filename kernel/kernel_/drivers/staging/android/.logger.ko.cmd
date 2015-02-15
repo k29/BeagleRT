@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/logger.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/staging/android/logger.ko drivers/staging/android/logger.o drivers/staging/android/logger.mod.o

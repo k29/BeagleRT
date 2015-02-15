@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/r820t.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/tuners/r820t.ko drivers/media/tuners/r820t.o drivers/media/tuners/r820t.mod.o

@@ -1,0 +1,1 @@
+cmd_net/xfrm/xfrm_ipcomp.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/xfrm/xfrm_ipcomp.ko net/xfrm/xfrm_ipcomp.o net/xfrm/xfrm_ipcomp.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/omap2/displays-new/connector-hdmi.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/video/omap2/displays-new/connector-hdmi.ko drivers/video/omap2/displays-new/connector-hdmi.o drivers/video/omap2/displays-new/connector-hdmi.mod.o

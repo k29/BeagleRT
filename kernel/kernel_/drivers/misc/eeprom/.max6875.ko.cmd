@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/max6875.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/misc/eeprom/max6875.ko drivers/misc/eeprom/max6875.o drivers/misc/eeprom/max6875.mod.o

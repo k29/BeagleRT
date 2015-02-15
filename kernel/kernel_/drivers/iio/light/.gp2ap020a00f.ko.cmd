@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/gp2ap020a00f.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/light/gp2ap020a00f.ko drivers/iio/light/gp2ap020a00f.o drivers/iio/light/gp2ap020a00f.mod.o

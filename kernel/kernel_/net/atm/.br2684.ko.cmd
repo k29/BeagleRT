@@ -1,0 +1,1 @@
+cmd_net/atm/br2684.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/atm/br2684.ko net/atm/br2684.o net/atm/br2684.mod.o

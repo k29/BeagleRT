@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/acecad.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/tablet/acecad.ko drivers/input/tablet/acecad.o drivers/input/tablet/acecad.mod.o

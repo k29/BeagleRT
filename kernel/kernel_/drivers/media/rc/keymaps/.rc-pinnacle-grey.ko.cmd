@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-pinnacle-grey.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-pinnacle-grey.ko drivers/media/rc/keymaps/rc-pinnacle-grey.o drivers/media/rc/keymaps/rc-pinnacle-grey.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/a3d.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/a3d.ko drivers/input/joystick/a3d.o drivers/input/joystick/a3d.mod.o

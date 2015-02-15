@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/cicada.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/phy/cicada.ko drivers/net/phy/cicada.o drivers/net/phy/cicada.mod.o

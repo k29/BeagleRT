@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-icade.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-icade.ko drivers/hid/hid-icade.o drivers/hid/hid-icade.mod.o

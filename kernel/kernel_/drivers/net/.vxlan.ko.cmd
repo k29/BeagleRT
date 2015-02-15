@@ -1,0 +1,1 @@
+cmd_drivers/net/vxlan.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/vxlan.ko drivers/net/vxlan.o drivers/net/vxlan.mod.o

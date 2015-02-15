@@ -1,0 +1,1 @@
+cmd_drivers/net/veth.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/veth.ko drivers/net/veth.o drivers/net/veth.mod.o

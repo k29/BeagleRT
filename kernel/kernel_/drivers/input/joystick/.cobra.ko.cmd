@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/cobra.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/cobra.ko drivers/input/joystick/cobra.o drivers/input/joystick/cobra.mod.o

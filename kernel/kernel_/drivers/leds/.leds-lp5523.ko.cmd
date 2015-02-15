@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-lp5523.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/leds/leds-lp5523.ko drivers/leds/leds-lp5523.o drivers/leds/leds-lp5523.mod.o

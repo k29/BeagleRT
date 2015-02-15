@@ -1,0 +1,1 @@
+cmd_drivers/net/irda/mcs7780.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/irda/mcs7780.ko drivers/net/irda/mcs7780.o drivers/net/irda/mcs7780.mod.o

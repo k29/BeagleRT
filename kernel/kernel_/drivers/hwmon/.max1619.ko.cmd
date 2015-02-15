@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/max1619.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/max1619.ko drivers/hwmon/max1619.o drivers/hwmon/max1619.mod.o

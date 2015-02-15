@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/built-in.o :=  arm-linux-gnueabi-ld -EL    -r -o drivers/pinctrl/built-in.o drivers/pinctrl/core.o drivers/pinctrl/pinctrl-utils.o drivers/pinctrl/pinmux.o drivers/pinctrl/pinconf.o drivers/pinctrl/devicetree.o drivers/pinctrl/pinconf-generic.o drivers/pinctrl/pinctrl-palmas.o drivers/pinctrl/pinctrl-single.o 

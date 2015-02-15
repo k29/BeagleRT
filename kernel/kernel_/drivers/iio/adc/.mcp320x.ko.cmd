@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/mcp320x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/adc/mcp320x.ko drivers/iio/adc/mcp320x.o drivers/iio/adc/mcp320x.mod.o

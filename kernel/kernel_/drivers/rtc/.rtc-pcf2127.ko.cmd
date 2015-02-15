@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-pcf2127.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-pcf2127.ko drivers/rtc/rtc-pcf2127.o drivers/rtc/rtc-pcf2127.mod.o

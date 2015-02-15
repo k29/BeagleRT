@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/stinger.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/stinger.ko drivers/input/joystick/stinger.o drivers/input/joystick/stinger.mod.o

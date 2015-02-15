@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/drxk.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/drxk.ko drivers/media/dvb-frontends/drxk.o drivers/media/dvb-frontends/drxk.mod.o

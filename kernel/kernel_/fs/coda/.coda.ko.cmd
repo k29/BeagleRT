@@ -1,0 +1,1 @@
+cmd_fs/coda/coda.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/coda/coda.ko fs/coda/coda.o fs/coda/coda.mod.o

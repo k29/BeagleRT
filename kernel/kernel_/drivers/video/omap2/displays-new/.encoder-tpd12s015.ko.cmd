@@ -1,0 +1,1 @@
+cmd_drivers/video/omap2/displays-new/encoder-tpd12s015.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/video/omap2/displays-new/encoder-tpd12s015.ko drivers/video/omap2/displays-new/encoder-tpd12s015.o drivers/video/omap2/displays-new/encoder-tpd12s015.mod.o

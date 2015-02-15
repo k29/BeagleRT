@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_LED.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/xt_LED.ko net/netfilter/xt_LED.o net/netfilter/xt_LED.mod.o

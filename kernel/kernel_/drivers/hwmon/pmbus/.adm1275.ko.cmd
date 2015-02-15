@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/adm1275.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/pmbus/adm1275.ko drivers/hwmon/pmbus/adm1275.o drivers/hwmon/pmbus/adm1275.mod.o

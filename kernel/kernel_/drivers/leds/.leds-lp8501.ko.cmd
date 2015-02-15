@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-lp8501.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/leds/leds-lp8501.ko drivers/leds/leds-lp8501.o drivers/leds/leds-lp8501.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/mpr121_touchkey.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/keyboard/mpr121_touchkey.ko drivers/input/keyboard/mpr121_touchkey.o drivers/input/keyboard/mpr121_touchkey.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/nfc/port100.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/nfc/port100.ko drivers/nfc/port100.o drivers/nfc/port100.mod.o

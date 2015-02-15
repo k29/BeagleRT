@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/w83792d.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/w83792d.ko drivers/hwmon/w83792d.o drivers/hwmon/w83792d.mod.o

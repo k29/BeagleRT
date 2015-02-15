@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/mc13783-pwrbutton.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/mc13783-pwrbutton.ko drivers/input/misc/mc13783-pwrbutton.o drivers/input/misc/mc13783-pwrbutton.mod.o

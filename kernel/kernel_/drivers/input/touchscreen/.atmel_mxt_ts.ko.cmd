@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/atmel_mxt_ts.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/atmel_mxt_ts.ko drivers/input/touchscreen/atmel_mxt_ts.o drivers/input/touchscreen/atmel_mxt_ts.mod.o

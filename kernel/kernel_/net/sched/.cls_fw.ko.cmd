@@ -1,0 +1,1 @@
+cmd_net/sched/cls_fw.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/cls_fw.ko net/sched/cls_fw.o net/sched/cls_fw.mod.o

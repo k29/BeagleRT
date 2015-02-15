@@ -1,0 +1,1 @@
+cmd_drivers/staging/usbip/usbip-host.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/staging/usbip/usbip-host.ko drivers/staging/usbip/usbip-host.o drivers/staging/usbip/usbip-host.mod.o

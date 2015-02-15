@@ -1,0 +1,6 @@
+kernel/drivers/mtd/ar7part.ko
+kernel/drivers/mtd/mtd_blkdevs.ko
+kernel/drivers/mtd/rfd_ftl.ko
+kernel/drivers/mtd/ssfdc.ko
+kernel/drivers/mtd/mtdoops.ko
+kernel/drivers/mtd/mtdswap.ko

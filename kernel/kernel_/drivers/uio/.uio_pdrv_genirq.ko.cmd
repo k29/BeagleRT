@@ -1,0 +1,1 @@
+cmd_drivers/uio/uio_pdrv_genirq.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/uio/uio_pdrv_genirq.ko drivers/uio/uio_pdrv_genirq.o drivers/uio/uio_pdrv_genirq.mod.o

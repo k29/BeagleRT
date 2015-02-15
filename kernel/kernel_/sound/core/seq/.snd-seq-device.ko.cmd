@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-device.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o sound/core/seq/snd-seq-device.ko sound/core/seq/snd-seq-device.o sound/core/seq/snd-seq-device.mod.o

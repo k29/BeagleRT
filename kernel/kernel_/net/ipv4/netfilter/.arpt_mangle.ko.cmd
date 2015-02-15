@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/arpt_mangle.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/ipv4/netfilter/arpt_mangle.ko net/ipv4/netfilter/arpt_mangle.o net/ipv4/netfilter/arpt_mangle.mod.o

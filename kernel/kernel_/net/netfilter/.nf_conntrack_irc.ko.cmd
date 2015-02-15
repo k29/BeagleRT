@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_irc.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_irc.ko net/netfilter/nf_conntrack_irc.o net/netfilter/nf_conntrack_irc.mod.o

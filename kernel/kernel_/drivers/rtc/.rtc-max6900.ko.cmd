@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-max6900.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-max6900.ko drivers/rtc/rtc-max6900.o drivers/rtc/rtc-max6900.mod.o

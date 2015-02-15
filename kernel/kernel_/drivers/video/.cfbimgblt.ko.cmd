@@ -1,0 +1,1 @@
+cmd_drivers/video/cfbimgblt.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/video/cfbimgblt.ko drivers/video/cfbimgblt.o drivers/video/cfbimgblt.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/mos7840.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/mos7840.ko drivers/usb/serial/mos7840.o drivers/usb/serial/mos7840.mod.o

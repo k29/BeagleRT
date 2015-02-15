@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-pcf857x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/gpio/gpio-pcf857x.ko drivers/gpio/gpio-pcf857x.o drivers/gpio/gpio-pcf857x.mod.o

@@ -1,0 +1,1 @@
+cmd_crypto/cast5_generic.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o crypto/cast5_generic.ko crypto/cast5_generic.o crypto/cast5_generic.mod.o

@@ -1,0 +1,1 @@
+cmd_net/irda/irnet/irnet.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/irda/irnet/irnet.ko net/irda/irnet/irnet.o net/irda/irnet/irnet.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/nfc/nfcwilink.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/nfc/nfcwilink.ko drivers/nfc/nfcwilink.o drivers/nfc/nfcwilink.mod.o

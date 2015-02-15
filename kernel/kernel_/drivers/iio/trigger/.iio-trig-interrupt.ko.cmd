@@ -1,0 +1,1 @@
+cmd_drivers/iio/trigger/iio-trig-interrupt.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/trigger/iio-trig-interrupt.ko drivers/iio/trigger/iio-trig-interrupt.o drivers/iio/trigger/iio-trig-interrupt.mod.o

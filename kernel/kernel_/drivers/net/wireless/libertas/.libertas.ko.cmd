@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/libertas/libertas.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/libertas/libertas.ko drivers/net/wireless/libertas/libertas.o drivers/net/wireless/libertas/libertas.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/interact.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/interact.ko drivers/input/joystick/interact.o drivers/input/joystick/interact.mod.o

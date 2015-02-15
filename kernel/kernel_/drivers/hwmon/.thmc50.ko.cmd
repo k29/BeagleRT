@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/thmc50.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/thmc50.ko drivers/hwmon/thmc50.o drivers/hwmon/thmc50.mod.o

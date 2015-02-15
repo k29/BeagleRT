@@ -1,0 +1,1 @@
+cmd_drivers/atm/adummy.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/atm/adummy.ko drivers/atm/adummy.o drivers/atm/adummy.mod.o

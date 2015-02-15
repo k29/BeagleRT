@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-max732x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/gpio/gpio-max732x.ko drivers/gpio/gpio-max732x.o drivers/gpio/gpio-max732x.mod.o

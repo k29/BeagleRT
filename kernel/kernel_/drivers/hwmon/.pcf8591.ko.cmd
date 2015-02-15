@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pcf8591.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/pcf8591.ko drivers/hwmon/pcf8591.o drivers/hwmon/pcf8591.mod.o

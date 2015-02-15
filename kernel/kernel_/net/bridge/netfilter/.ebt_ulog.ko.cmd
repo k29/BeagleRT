@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_ulog.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebt_ulog.ko net/bridge/netfilter/ebt_ulog.o net/bridge/netfilter/ebt_ulog.mod.o

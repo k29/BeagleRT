@@ -1,0 +1,1 @@
+cmd_net/ceph/libceph.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/ceph/libceph.ko net/ceph/libceph.o net/ceph/libceph.mod.o

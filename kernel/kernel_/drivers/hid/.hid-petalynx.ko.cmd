@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-petalynx.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-petalynx.ko drivers/hid/hid-petalynx.o drivers/hid/hid-petalynx.mod.o

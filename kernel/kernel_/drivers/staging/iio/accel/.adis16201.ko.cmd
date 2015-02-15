@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/accel/adis16201.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/staging/iio/accel/adis16201.ko drivers/staging/iio/accel/adis16201.o drivers/staging/iio/accel/adis16201.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/adp5588-keys.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/keyboard/adp5588-keys.ko drivers/input/keyboard/adp5588-keys.o drivers/input/keyboard/adp5588-keys.mod.o

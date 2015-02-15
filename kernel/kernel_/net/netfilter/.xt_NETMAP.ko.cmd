@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_NETMAP.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/xt_NETMAP.ko net/netfilter/xt_NETMAP.o net/netfilter/xt_NETMAP.mod.o

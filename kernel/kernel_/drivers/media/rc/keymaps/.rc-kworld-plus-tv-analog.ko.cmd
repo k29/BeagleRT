@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.ko drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.o drivers/media/rc/keymaps/rc-kworld-plus-tv-analog.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/at803x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/phy/at803x.ko drivers/net/phy/at803x.o drivers/net/phy/at803x.mod.o

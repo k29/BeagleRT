@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-rx4581.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-rx4581.ko drivers/rtc/rtc-rx4581.o drivers/rtc/rtc-rx4581.mod.o

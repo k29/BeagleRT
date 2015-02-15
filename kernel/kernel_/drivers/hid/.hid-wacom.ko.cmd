@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-wacom.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-wacom.ko drivers/hid/hid-wacom.o drivers/hid/hid-wacom.mod.o

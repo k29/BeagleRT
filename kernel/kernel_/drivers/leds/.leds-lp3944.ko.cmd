@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-lp3944.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/leds/leds-lp3944.ko drivers/leds/leds-lp3944.o drivers/leds/leds-lp3944.mod.o

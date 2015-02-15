@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/cyapa.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/mouse/cyapa.ko drivers/input/mouse/cyapa.o drivers/input/mouse/cyapa.mod.o

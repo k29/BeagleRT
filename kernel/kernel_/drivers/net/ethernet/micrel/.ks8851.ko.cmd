@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/micrel/ks8851.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/ethernet/micrel/ks8851.ko drivers/net/ethernet/micrel/ks8851.o drivers/net/ethernet/micrel/ks8851.mod.o

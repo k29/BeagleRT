@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/radio-shark.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/radio/radio-shark.ko drivers/media/radio/radio-shark.o drivers/media/radio/radio-shark.mod.o

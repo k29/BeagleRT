@@ -1,0 +1,1 @@
+cmd_drivers/net/can/grcan.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/can/grcan.ko drivers/net/can/grcan.o drivers/net/can/grcan.mod.o

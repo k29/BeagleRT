@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/ucd9200.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/pmbus/ucd9200.ko drivers/hwmon/pmbus/ucd9200.o drivers/hwmon/pmbus/ucd9200.mod.o

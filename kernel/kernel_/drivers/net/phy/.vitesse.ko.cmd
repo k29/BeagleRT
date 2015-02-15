@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/vitesse.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/phy/vitesse.ko drivers/net/phy/vitesse.o drivers/net/phy/vitesse.mod.o

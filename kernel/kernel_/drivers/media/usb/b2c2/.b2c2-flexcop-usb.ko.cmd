@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/b2c2/b2c2-flexcop-usb.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/b2c2/b2c2-flexcop-usb.ko drivers/media/usb/b2c2/b2c2-flexcop-usb.o drivers/media/usb/b2c2/b2c2-flexcop-usb.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/kl5kusb105.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/kl5kusb105.ko drivers/usb/serial/kl5kusb105.o drivers/usb/serial/kl5kusb105.mod.o

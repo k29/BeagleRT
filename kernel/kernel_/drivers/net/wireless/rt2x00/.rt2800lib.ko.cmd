@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rt2x00/rt2800lib.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/rt2x00/rt2800lib.ko drivers/net/wireless/rt2x00/rt2800lib.o drivers/net/wireless/rt2x00/rt2800lib.mod.o

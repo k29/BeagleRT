@@ -1,0 +1,1 @@
+cmd_drivers/power/gpio-charger.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/power/gpio-charger.ko drivers/power/gpio-charger.o drivers/power/gpio-charger.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/videobuf2-memops.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/v4l2-core/videobuf2-memops.ko drivers/media/v4l2-core/videobuf2-memops.o drivers/media/v4l2-core/videobuf2-memops.mod.o

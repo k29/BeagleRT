@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_SECMARK.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/xt_SECMARK.ko net/netfilter/xt_SECMARK.o net/netfilter/xt_SECMARK.mod.o

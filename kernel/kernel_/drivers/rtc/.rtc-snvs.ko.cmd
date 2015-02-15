@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-snvs.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-snvs.ko drivers/rtc/rtc-snvs.o drivers/rtc/rtc-snvs.mod.o

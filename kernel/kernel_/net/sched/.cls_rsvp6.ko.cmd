@@ -1,0 +1,1 @@
+cmd_net/sched/cls_rsvp6.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/cls_rsvp6.ko net/sched/cls_rsvp6.o net/sched/cls_rsvp6.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/vt1211.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/vt1211.ko drivers/hwmon/vt1211.o drivers/hwmon/vt1211.mod.o

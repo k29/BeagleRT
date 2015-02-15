@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/bcm5974.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/mouse/bcm5974.ko drivers/input/mouse/bcm5974.o drivers/input/mouse/bcm5974.mod.o

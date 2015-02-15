@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/generic_bl.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/video/backlight/generic_bl.ko drivers/video/backlight/generic_bl.o drivers/video/backlight/generic_bl.mod.o

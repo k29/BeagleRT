@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_DSCP.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/xt_DSCP.ko net/netfilter/xt_DSCP.o net/netfilter/xt_DSCP.mod.o

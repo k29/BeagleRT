@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebtable_nat.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebtable_nat.ko net/bridge/netfilter/ebtable_nat.o net/bridge/netfilter/ebtable_nat.mod.o

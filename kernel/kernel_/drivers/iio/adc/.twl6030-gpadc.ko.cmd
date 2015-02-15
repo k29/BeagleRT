@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/twl6030-gpadc.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/adc/twl6030-gpadc.ko drivers/iio/adc/twl6030-gpadc.o drivers/iio/adc/twl6030-gpadc.mod.o

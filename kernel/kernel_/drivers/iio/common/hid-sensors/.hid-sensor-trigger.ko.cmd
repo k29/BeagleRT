@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/hid-sensors/hid-sensor-trigger.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/common/hid-sensors/hid-sensor-trigger.ko drivers/iio/common/hid-sensors/hid-sensor-trigger.o drivers/iio/common/hid-sensors/hid-sensor-trigger.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/block/loop.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/block/loop.ko drivers/block/loop.o drivers/block/loop.mod.o

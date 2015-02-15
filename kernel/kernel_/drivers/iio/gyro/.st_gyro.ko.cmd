@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/st_gyro.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/gyro/st_gyro.ko drivers/iio/gyro/st_gyro.o drivers/iio/gyro/st_gyro.mod.o

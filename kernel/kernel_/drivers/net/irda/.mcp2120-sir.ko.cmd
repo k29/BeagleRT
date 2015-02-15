@@ -1,0 +1,1 @@
+cmd_drivers/net/irda/mcp2120-sir.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/irda/mcp2120-sir.ko drivers/net/irda/mcp2120-sir.o drivers/net/irda/mcp2120-sir.mod.o

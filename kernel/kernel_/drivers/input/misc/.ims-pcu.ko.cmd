@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/ims-pcu.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/ims-pcu.ko drivers/input/misc/ims-pcu.o drivers/input/misc/ims-pcu.mod.o

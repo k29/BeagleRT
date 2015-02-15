@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/joydump.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/joydump.ko drivers/input/joystick/joydump.o drivers/input/joystick/joydump.mod.o

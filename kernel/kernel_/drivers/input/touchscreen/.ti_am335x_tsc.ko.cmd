@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ti_am335x_tsc.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ti_am335x_tsc.ko drivers/input/touchscreen/ti_am335x_tsc.o drivers/input/touchscreen/ti_am335x_tsc.mod.o

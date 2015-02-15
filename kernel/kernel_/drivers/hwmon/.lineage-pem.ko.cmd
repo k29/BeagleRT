@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/lineage-pem.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/lineage-pem.ko drivers/hwmon/lineage-pem.o drivers/hwmon/lineage-pem.mod.o

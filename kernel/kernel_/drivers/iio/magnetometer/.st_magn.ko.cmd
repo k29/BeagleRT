@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/st_magn.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/magnetometer/st_magn.ko drivers/iio/magnetometer/st_magn.o drivers/iio/magnetometer/st_magn.mod.o

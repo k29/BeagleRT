@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/warrior.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/warrior.ko drivers/input/joystick/warrior.o drivers/input/joystick/warrior.mod.o

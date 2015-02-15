@@ -1,0 +1,1 @@
+cmd_net/802/mrp.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/802/mrp.ko net/802/mrp.o net/802/mrp.mod.o

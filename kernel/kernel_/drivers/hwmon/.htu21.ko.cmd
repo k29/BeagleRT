@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/htu21.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/htu21.ko drivers/hwmon/htu21.o drivers/hwmon/htu21.mod.o

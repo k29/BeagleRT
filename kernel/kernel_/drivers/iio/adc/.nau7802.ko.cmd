@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/nau7802.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/adc/nau7802.ko drivers/iio/adc/nau7802.o drivers/iio/adc/nau7802.mod.o

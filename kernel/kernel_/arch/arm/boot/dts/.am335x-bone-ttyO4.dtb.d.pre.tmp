@@ -1,0 +1,7 @@
+am335x-bone-ttyO4.o: arch/arm/boot/dts/am335x-bone-ttyO4.dts \
+ arch/arm/boot/dts/am335x-bone.dts arch/arm/boot/dts/am33xx.dtsi \
+ /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/arch/arm/boot/dts/include/dt-bindings/gpio/gpio.h \
+ /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/arch/arm/boot/dts/include/dt-bindings/pinctrl/am33xx.h \
+ /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/arch/arm/boot/dts/include/dt-bindings/pinctrl/omap.h \
+ arch/arm/boot/dts/skeleton.dtsi \
+ arch/arm/boot/dts/am335x-bone-common.dtsi

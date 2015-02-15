@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/cma3000_d0x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/cma3000_d0x.ko drivers/input/misc/cma3000_d0x.o drivers/input/misc/cma3000_d0x.mod.o

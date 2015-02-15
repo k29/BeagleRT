@@ -1,0 +1,1 @@
+cmd_net/wireless/lib80211_crypt_tkip.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/wireless/lib80211_crypt_tkip.ko net/wireless/lib80211_crypt_tkip.o net/wireless/lib80211_crypt_tkip.mod.o

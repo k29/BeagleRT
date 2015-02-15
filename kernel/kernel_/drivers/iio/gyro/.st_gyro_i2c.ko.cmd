@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/st_gyro_i2c.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/gyro/st_gyro_i2c.ko drivers/iio/gyro/st_gyro_i2c.o drivers/iio/gyro/st_gyro_i2c.mod.o

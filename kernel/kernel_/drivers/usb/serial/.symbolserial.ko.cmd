@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/symbolserial.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/symbolserial.ko drivers/usb/serial/symbolserial.o drivers/usb/serial/symbolserial.mod.o

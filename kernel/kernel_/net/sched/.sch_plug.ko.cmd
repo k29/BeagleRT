@@ -1,0 +1,1 @@
+cmd_net/sched/sch_plug.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/sch_plug.ko net/sched/sch_plug.o net/sched/sch_plug.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/g_ffs.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/gadget/g_ffs.ko drivers/usb/gadget/g_ffs.o drivers/usb/gadget/g_ffs.mod.o

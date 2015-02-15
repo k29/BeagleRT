@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/ppp_deflate.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/ppp/ppp_deflate.ko drivers/net/ppp/ppp_deflate.o drivers/net/ppp/ppp_deflate.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/omap4-keypad.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/keyboard/omap4-keypad.ko drivers/input/keyboard/omap4-keypad.o drivers/input/keyboard/omap4-keypad.mod.o

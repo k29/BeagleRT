@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-twl.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-twl.ko drivers/rtc/rtc-twl.o drivers/rtc/rtc-twl.mod.o

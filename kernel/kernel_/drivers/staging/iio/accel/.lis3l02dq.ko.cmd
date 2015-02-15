@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/accel/lis3l02dq.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/staging/iio/accel/lis3l02dq.ko drivers/staging/iio/accel/lis3l02dq.o drivers/staging/iio/accel/lis3l02dq.mod.o

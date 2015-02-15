@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/tps6507x-ts.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/tps6507x-ts.ko drivers/input/touchscreen/tps6507x-ts.o drivers/input/touchscreen/tps6507x-ts.mod.o

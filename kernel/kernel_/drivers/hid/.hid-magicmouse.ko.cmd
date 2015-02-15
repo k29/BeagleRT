@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-magicmouse.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-magicmouse.ko drivers/hid/hid-magicmouse.o drivers/hid/hid-magicmouse.mod.o

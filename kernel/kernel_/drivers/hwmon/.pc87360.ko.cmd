@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pc87360.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/pc87360.ko drivers/hwmon/pc87360.o drivers/hwmon/pc87360.mod.o

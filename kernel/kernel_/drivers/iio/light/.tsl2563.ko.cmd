@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/tsl2563.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/light/tsl2563.ko drivers/iio/light/tsl2563.o drivers/iio/light/tsl2563.mod.o

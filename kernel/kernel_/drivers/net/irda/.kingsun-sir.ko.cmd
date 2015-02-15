@@ -1,0 +1,1 @@
+cmd_drivers/net/irda/kingsun-sir.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/irda/kingsun-sir.ko drivers/net/irda/kingsun-sir.o drivers/net/irda/kingsun-sir.mod.o

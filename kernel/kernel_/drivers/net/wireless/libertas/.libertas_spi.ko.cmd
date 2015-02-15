@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/libertas/libertas_spi.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/libertas/libertas_spi.ko drivers/net/wireless/libertas/libertas_spi.o drivers/net/wireless/libertas/libertas_spi.mod.o

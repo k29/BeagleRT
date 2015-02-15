@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-isl12057.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-isl12057.ko drivers/rtc/rtc-isl12057.o drivers/rtc/rtc-isl12057.mod.o

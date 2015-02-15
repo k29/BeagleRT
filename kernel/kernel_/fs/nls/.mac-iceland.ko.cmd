@@ -1,0 +1,1 @@
+cmd_fs/nls/mac-iceland.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nls/mac-iceland.ko fs/nls/mac-iceland.o fs/nls/mac-iceland.mod.o

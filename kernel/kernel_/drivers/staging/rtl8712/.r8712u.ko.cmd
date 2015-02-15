@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8712/r8712u.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/staging/rtl8712/r8712u.ko drivers/staging/rtl8712/r8712u.o drivers/staging/rtl8712/r8712u.mod.o

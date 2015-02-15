@@ -1,0 +1,126 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0xafeaea66, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0xa8232c78, __VMLINUX_SYMBOL_STR(strtobool) },
+	{ 0x38dc6ecd, __VMLINUX_SYMBOL_STR(device_remove_file) },
+	{ 0x588c32c0, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0xf4a7fc6d, __VMLINUX_SYMBOL_STR(omapdss_compat_init) },
+	{ 0xfbc74f64, __VMLINUX_SYMBOL_STR(__copy_from_user) },
+	{ 0x22e1ae6f, __VMLINUX_SYMBOL_STR(up_read) },
+	{ 0xd6ee688f, __VMLINUX_SYMBOL_STR(vmalloc) },
+	{ 0x27864d57, __VMLINUX_SYMBOL_STR(memparse) },
+	{ 0x349cba85, __VMLINUX_SYMBOL_STR(strchr) },
+	{ 0xb6b46a7c, __VMLINUX_SYMBOL_STR(param_ops_int) },
+	{ 0x67c2fa54, __VMLINUX_SYMBOL_STR(__copy_to_user) },
+	{ 0x2e5810c6, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr1) },
+	{ 0x97255bdf, __VMLINUX_SYMBOL_STR(strlen) },
+	{ 0xddbfe684, __VMLINUX_SYMBOL_STR(framebuffer_release) },
+	{ 0xedd5fff7, __VMLINUX_SYMBOL_STR(dev_set_drvdata) },
+	{ 0x43a53735, __VMLINUX_SYMBOL_STR(__alloc_workqueue_key) },
+	{ 0x436e9853, __VMLINUX_SYMBOL_STR(omap_dss_get_overlay_manager) },
+	{ 0xffd2cf99, __VMLINUX_SYMBOL_STR(omap_dss_get_num_overlay_managers) },
+	{ 0xd1664c96, __VMLINUX_SYMBOL_STR(arm_dma_ops) },
+	{ 0x7fa64cca, __VMLINUX_SYMBOL_STR(omap_dss_pal_timings) },
+	{ 0x223cc898, __VMLINUX_SYMBOL_STR(omap_vrfb_max_height) },
+	{ 0xba7da3ee, __VMLINUX_SYMBOL_STR(omap_dss_get_overlay) },
+	{ 0x20000329, __VMLINUX_SYMBOL_STR(simple_strtoul) },
+	{ 0x6b06fdce, __VMLINUX_SYMBOL_STR(delayed_work_timer_fn) },
+	{ 0x353e3fa5, __VMLINUX_SYMBOL_STR(__get_user_4) },
+	{ 0xee2bc2d0, __VMLINUX_SYMBOL_STR(omapdss_is_initialized) },
+	{ 0x65de321f, __VMLINUX_SYMBOL_STR(cfb_fillrect) },
+	{ 0x33ba5cd4, __VMLINUX_SYMBOL_STR(param_ops_bool) },
+	{ 0x593a99b, __VMLINUX_SYMBOL_STR(init_timer_key) },
+	{ 0x24d7b4eb, __VMLINUX_SYMBOL_STR(cancel_delayed_work_sync) },
+	{ 0xa14f58f7, __VMLINUX_SYMBOL_STR(mutex_unlock) },
+	{ 0x85df9b6c, __VMLINUX_SYMBOL_STR(strsep) },
+	{ 0x999e8297, __VMLINUX_SYMBOL_STR(vfree) },
+	{ 0xc499ae1e, __VMLINUX_SYMBOL_STR(kstrdup) },
+	{ 0x2d2fbe9e, __VMLINUX_SYMBOL_STR(__platform_driver_register) },
+	{ 0xf6f3cef6, __VMLINUX_SYMBOL_STR(omap_vrfb_setup) },
+	{ 0xe2d5255a, __VMLINUX_SYMBOL_STR(strcmp) },
+	{ 0x455293f6, __VMLINUX_SYMBOL_STR(down_read) },
+	{ 0x3277f4a, __VMLINUX_SYMBOL_STR(omap_dss_put_device) },
+	{ 0xe707d823, __VMLINUX_SYMBOL_STR(__aeabi_uidiv) },
+	{ 0x5d41c87c, __VMLINUX_SYMBOL_STR(param_ops_charp) },
+	{ 0xfa2a45e, __VMLINUX_SYMBOL_STR(__memzero) },
+	{ 0x54f6830a, __VMLINUX_SYMBOL_STR(omapdss_get_default_display_name) },
+	{ 0xd75df8, __VMLINUX_SYMBOL_STR(cfb_imageblit) },
+	{ 0x9c7e5296, __VMLINUX_SYMBOL_STR(dev_err) },
+	{ 0x5daf0e44, __VMLINUX_SYMBOL_STR(__mutex_init) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0xc0cf95f9, __VMLINUX_SYMBOL_STR(omap_vrfb_request_ctx) },
+	{ 0x7a890c8, __VMLINUX_SYMBOL_STR(fb_alloc_cmap) },
+	{ 0x711f5a16, __VMLINUX_SYMBOL_STR(omapdss_find_mgr_from_display) },
+	{ 0x3e6bcc48, __VMLINUX_SYMBOL_STR(omap_dss_get_next_device) },
+	{ 0xbc1a0bb3, __VMLINUX_SYMBOL_STR(register_framebuffer) },
+	{ 0x73e20c1c, __VMLINUX_SYMBOL_STR(strlcpy) },
+	{ 0x16305289, __VMLINUX_SYMBOL_STR(warn_slowpath_null) },
+	{ 0x12e3160b, __VMLINUX_SYMBOL_STR(mutex_lock) },
+	{ 0x8c03d20c, __VMLINUX_SYMBOL_STR(destroy_workqueue) },
+	{ 0x308aad56, __VMLINUX_SYMBOL_STR(omap_vrfb_min_phys_size) },
+	{ 0x373db350, __VMLINUX_SYMBOL_STR(kstrtoint) },
+	{ 0x83211609, __VMLINUX_SYMBOL_STR(up_write) },
+	{ 0xa958ed4, __VMLINUX_SYMBOL_STR(down_write) },
+	{ 0x42160169, __VMLINUX_SYMBOL_STR(flush_workqueue) },
+	{ 0x2196324, __VMLINUX_SYMBOL_STR(__aeabi_idiv) },
+	{ 0x80d81308, __VMLINUX_SYMBOL_STR(omap_vrfb_release_ctx) },
+	{ 0xbfc112d0, __VMLINUX_SYMBOL_STR(device_create_file) },
+	{ 0x98b71c6, __VMLINUX_SYMBOL_STR(fb_dealloc_cmap) },
+	{ 0xca6ce8ba, __VMLINUX_SYMBOL_STR(omap_dss_ntsc_timings) },
+	{ 0x7a973ad5, __VMLINUX_SYMBOL_STR(_dev_info) },
+	{ 0xbc10dd97, __VMLINUX_SYMBOL_STR(__put_user_4) },
+	{ 0xf853bbca, __VMLINUX_SYMBOL_STR(omap_vrfb_map_angle) },
+	{ 0xa17c1a7e, __VMLINUX_SYMBOL_STR(fb_find_mode) },
+	{ 0xe851bb05, __VMLINUX_SYMBOL_STR(queue_delayed_work_on) },
+	{ 0xc2165d85, __VMLINUX_SYMBOL_STR(__arm_iounmap) },
+	{ 0x996bdb64, __VMLINUX_SYMBOL_STR(_kstrtoul) },
+	{ 0xff9ca065, __VMLINUX_SYMBOL_STR(fb_edid_to_monspecs) },
+	{ 0x1dc36131, __VMLINUX_SYMBOL_STR(fb_destroy_modedb) },
+	{ 0x84a3c035, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0x84aa9ea7, __VMLINUX_SYMBOL_STR(framebuffer_alloc) },
+	{ 0x1e047854, __VMLINUX_SYMBOL_STR(warn_slowpath_fmt) },
+	{ 0x4c33081d, __VMLINUX_SYMBOL_STR(omapdss_compat_uninit) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0xa46f2f1b, __VMLINUX_SYMBOL_STR(kstrtouint) },
+	{ 0x9d669763, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0xcb2ec95, __VMLINUX_SYMBOL_STR(omap_dss_get_device) },
+	{ 0xdb9091ad, __VMLINUX_SYMBOL_STR(lock_fb_info) },
+	{ 0x1a20c540, __VMLINUX_SYMBOL_STR(omap_vrfb_supported) },
+	{ 0xd75323e1, __VMLINUX_SYMBOL_STR(vm_iomap_memory) },
+	{ 0xe2ef4525, __VMLINUX_SYMBOL_STR(dev_warn) },
+	{ 0xdfad9740, __VMLINUX_SYMBOL_STR(cfb_copyarea) },
+	{ 0xefd6cf06, __VMLINUX_SYMBOL_STR(__aeabi_unwind_cpp_pr0) },
+	{ 0x636b3461, __VMLINUX_SYMBOL_STR(omap_dss_get_num_overlays) },
+	{ 0xb81960ca, __VMLINUX_SYMBOL_STR(snprintf) },
+	{ 0xb3e81f85, __VMLINUX_SYMBOL_STR(platform_driver_unregister) },
+	{ 0x6d83952a, __VMLINUX_SYMBOL_STR(devm_kmalloc) },
+	{ 0x47c8baf4, __VMLINUX_SYMBOL_STR(param_ops_uint) },
+	{ 0x4a5e046c, __VMLINUX_SYMBOL_STR(dev_get_drvdata) },
+	{ 0x7d4e2276, __VMLINUX_SYMBOL_STR(__init_rwsem) },
+	{ 0x7307b5b7, __VMLINUX_SYMBOL_STR(unregister_framebuffer) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=omapdss,cfbfillrect,cfbimgblt,cfbcopyarea";
+

@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/si4713/si4713.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/radio/si4713/si4713.ko drivers/media/radio/si4713/si4713.o drivers/media/radio/si4713/si4713.mod.o

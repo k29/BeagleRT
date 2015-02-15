@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/cm109.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/cm109.ko drivers/input/misc/cm109.o drivers/input/misc/cm109.mod.o

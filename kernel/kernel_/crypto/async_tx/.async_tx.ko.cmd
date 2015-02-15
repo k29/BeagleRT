@@ -1,0 +1,1 @@
+cmd_crypto/async_tx/async_tx.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o crypto/async_tx/async_tx.ko crypto/async_tx/async_tx.o crypto/async_tx/async_tx.mod.o

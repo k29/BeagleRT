@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/usbvision/usbvision.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/usbvision/usbvision.ko drivers/media/usb/usbvision/usbvision.o drivers/media/usb/usbvision/usbvision.mod.o

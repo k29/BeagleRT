@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-sddr55.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/storage/ums-sddr55.ko drivers/usb/storage/ums-sddr55.o drivers/usb/storage/ums-sddr55.mod.o

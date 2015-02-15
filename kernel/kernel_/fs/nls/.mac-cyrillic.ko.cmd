@@ -1,0 +1,1 @@
+cmd_fs/nls/mac-cyrillic.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nls/mac-cyrillic.ko fs/nls/mac-cyrillic.o fs/nls/mac-cyrillic.mod.o

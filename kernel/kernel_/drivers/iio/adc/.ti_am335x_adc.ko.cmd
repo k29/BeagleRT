@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ti_am335x_adc.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/adc/ti_am335x_adc.ko drivers/iio/adc/ti_am335x_adc.o drivers/iio/adc/ti_am335x_adc.mod.o

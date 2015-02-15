@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/soc_camera/mt9v022.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/i2c/soc_camera/mt9v022.ko drivers/media/i2c/soc_camera/mt9v022.o drivers/media/i2c/soc_camera/mt9v022.mod.o

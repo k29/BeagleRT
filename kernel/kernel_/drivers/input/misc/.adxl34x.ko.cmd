@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/adxl34x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/adxl34x.ko drivers/input/misc/adxl34x.o drivers/input/misc/adxl34x.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/common/st_sensors/st_sensors.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/common/st_sensors/st_sensors.ko drivers/iio/common/st_sensors/st_sensors.o drivers/iio/common/st_sensors/st_sensors.mod.o

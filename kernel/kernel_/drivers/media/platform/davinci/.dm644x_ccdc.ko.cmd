@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/davinci/dm644x_ccdc.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/platform/davinci/dm644x_ccdc.ko drivers/media/platform/davinci/dm644x_ccdc.o drivers/media/platform/davinci/dm644x_ccdc.mod.o

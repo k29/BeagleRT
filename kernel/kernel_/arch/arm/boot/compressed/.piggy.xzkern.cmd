@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/compressed/piggy.xzkern := (cat arch/arm/boot/compressed/../Image | sh /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/xz_wrap.sh && printf \\200\\202\\262\\000) > arch/arm/boot/compressed/piggy.xzkern || (rm -f arch/arm/boot/compressed/piggy.xzkern ; false)

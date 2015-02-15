@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-palmas.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-palmas.ko drivers/rtc/rtc-palmas.o drivers/rtc/rtc-palmas.mod.o

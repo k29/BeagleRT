@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-x1205.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-x1205.ko drivers/rtc/rtc-x1205.o drivers/rtc/rtc-x1205.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/em28xx/em28xx-dvb.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/em28xx/em28xx-dvb.ko drivers/media/usb/em28xx/em28xx-dvb.o drivers/media/usb/em28xx/em28xx-dvb.mod.o

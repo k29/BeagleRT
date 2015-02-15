@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/emc2103.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/emc2103.ko drivers/hwmon/emc2103.o drivers/hwmon/emc2103.mod.o

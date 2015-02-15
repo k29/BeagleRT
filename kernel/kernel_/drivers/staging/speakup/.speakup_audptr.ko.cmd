@@ -1,0 +1,1 @@
+cmd_drivers/staging/speakup/speakup_audptr.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/staging/speakup/speakup_audptr.ko drivers/staging/speakup/speakup_audptr.o drivers/staging/speakup/speakup_audptr.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/usb_debug.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/usb_debug.ko drivers/usb/serial/usb_debug.o drivers/usb/serial/usb_debug.mod.o

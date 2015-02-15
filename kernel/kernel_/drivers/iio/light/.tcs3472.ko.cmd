@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/tcs3472.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/light/tcs3472.ko drivers/iio/light/tcs3472.o drivers/iio/light/tcs3472.mod.o

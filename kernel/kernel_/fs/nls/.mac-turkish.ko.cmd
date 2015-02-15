@@ -1,0 +1,1 @@
+cmd_fs/nls/mac-turkish.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nls/mac-turkish.ko fs/nls/mac-turkish.o fs/nls/mac-turkish.mod.o

@@ -1,0 +1,1 @@
+cmd_fs/nls/mac-gaelic.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nls/mac-gaelic.ko fs/nls/mac-gaelic.o fs/nls/mac-gaelic.mod.o

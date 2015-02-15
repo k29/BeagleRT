@@ -1,0 +1,1 @@
+cmd_drivers/nfc/nfcmrvl/nfcmrvl.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/nfc/nfcmrvl/nfcmrvl.ko drivers/nfc/nfcmrvl/nfcmrvl.o drivers/nfc/nfcmrvl/nfcmrvl.mod.o

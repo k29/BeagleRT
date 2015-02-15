@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/tuner_it913x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/tuners/tuner_it913x.ko drivers/media/tuners/tuner_it913x.o drivers/media/tuners/tuner_it913x.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-steelseries.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-steelseries.ko drivers/hid/hid-steelseries.o drivers/hid/hid-steelseries.mod.o

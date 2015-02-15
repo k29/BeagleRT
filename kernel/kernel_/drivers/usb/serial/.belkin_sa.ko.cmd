@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/belkin_sa.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/belkin_sa.ko drivers/usb/serial/belkin_sa.o drivers/usb/serial/belkin_sa.mod.o

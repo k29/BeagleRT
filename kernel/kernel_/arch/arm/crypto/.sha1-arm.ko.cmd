@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha1-arm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o arch/arm/crypto/sha1-arm.ko arch/arm/crypto/sha1-arm.o arch/arm/crypto/sha1-arm.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cxd2820r.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/cxd2820r.ko drivers/media/dvb-frontends/cxd2820r.o drivers/media/dvb-frontends/cxd2820r.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/wl18xx/wl18xx.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/ti/wl18xx/wl18xx.ko drivers/net/wireless/ti/wl18xx/wl18xx.o drivers/net/wireless/ti/wl18xx/wl18xx.mod.o

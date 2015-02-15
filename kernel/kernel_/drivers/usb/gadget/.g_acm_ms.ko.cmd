@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/g_acm_ms.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/gadget/g_acm_ms.ko drivers/usb/gadget/g_acm_ms.o drivers/usb/gadget/g_acm_ms.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/sch56xx-common.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/sch56xx-common.ko drivers/hwmon/sch56xx-common.o drivers/hwmon/sch56xx-common.mod.o

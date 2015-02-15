@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/cm32181.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/light/cm32181.ko drivers/iio/light/cm32181.o drivers/iio/light/cm32181.mod.o

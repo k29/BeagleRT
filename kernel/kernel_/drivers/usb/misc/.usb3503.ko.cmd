@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/usb3503.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/misc/usb3503.ko drivers/usb/misc/usb3503.o drivers/usb/misc/usb3503.mod.o

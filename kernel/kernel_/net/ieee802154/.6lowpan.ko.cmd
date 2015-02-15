@@ -1,0 +1,1 @@
+cmd_net/ieee802154/6lowpan.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/ieee802154/6lowpan.ko net/ieee802154/6lowpan.o net/ieee802154/6lowpan.mod.o

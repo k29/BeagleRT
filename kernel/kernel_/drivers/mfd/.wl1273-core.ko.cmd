@@ -1,0 +1,1 @@
+cmd_drivers/mfd/wl1273-core.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/mfd/wl1273-core.ko drivers/mfd/wl1273-core.o drivers/mfd/wl1273-core.mod.o

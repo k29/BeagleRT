@@ -1,0 +1,1 @@
+cmd_fs/fscache/fscache.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/fscache/fscache.ko fs/fscache/fscache.o fs/fscache/fscache.mod.o

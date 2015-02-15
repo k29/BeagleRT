@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-wiimote.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-wiimote.ko drivers/hid/hid-wiimote.o drivers/hid/hid-wiimote.mod.o

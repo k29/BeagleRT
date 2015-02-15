@@ -1,0 +1,1 @@
+cmd_drivers/md/raid0.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/md/raid0.ko drivers/md/raid0.o drivers/md/raid0.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/analog.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/analog.ko drivers/input/joystick/analog.o drivers/input/joystick/analog.mod.o

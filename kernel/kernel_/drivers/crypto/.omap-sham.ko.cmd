@@ -1,0 +1,1 @@
+cmd_drivers/crypto/omap-sham.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/crypto/omap-sham.ko drivers/crypto/omap-sham.o drivers/crypto/omap-sham.mod.o

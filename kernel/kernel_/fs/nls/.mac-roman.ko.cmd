@@ -1,0 +1,1 @@
+cmd_fs/nls/mac-roman.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nls/mac-roman.ko fs/nls/mac-roman.o fs/nls/mac-roman.mod.o

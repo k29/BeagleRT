@@ -1,0 +1,1 @@
+cmd_drivers/video/cfbcopyarea.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/video/cfbcopyarea.ko drivers/video/cfbcopyarea.o drivers/video/cfbcopyarea.mod.o

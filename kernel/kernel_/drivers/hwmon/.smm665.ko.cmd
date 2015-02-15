@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/smm665.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/smm665.ko drivers/hwmon/smm665.o drivers/hwmon/smm665.mod.o

@@ -1,0 +1,1 @@
+cmd_net/dccp/dccp_probe.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/dccp/dccp_probe.ko net/dccp/dccp_probe.o net/dccp/dccp_probe.mod.o

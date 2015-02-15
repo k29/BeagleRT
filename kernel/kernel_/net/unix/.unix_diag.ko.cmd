@@ -1,0 +1,1 @@
+cmd_net/unix/unix_diag.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/unix/unix_diag.ko net/unix/unix_diag.o net/unix/unix_diag.mod.o

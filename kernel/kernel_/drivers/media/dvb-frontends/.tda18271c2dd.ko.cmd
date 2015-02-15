@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/tda18271c2dd.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/tda18271c2dd.ko drivers/media/dvb-frontends/tda18271c2dd.o drivers/media/dvb-frontends/tda18271c2dd.mod.o

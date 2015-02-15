@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-holtek-kbd.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-holtek-kbd.ko drivers/hid/hid-holtek-kbd.o drivers/hid/hid-holtek-kbd.mod.o

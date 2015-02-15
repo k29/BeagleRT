@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/nct6775.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/nct6775.ko drivers/hwmon/nct6775.o drivers/hwmon/nct6775.mod.o

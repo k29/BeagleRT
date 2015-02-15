@@ -1,0 +1,1 @@
+cmd_net/sched/sch_codel.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/sch_codel.ko net/sched/sch_codel.o net/sched/sch_codel.mod.o

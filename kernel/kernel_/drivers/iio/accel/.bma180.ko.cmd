@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/bma180.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/accel/bma180.ko drivers/iio/accel/bma180.o drivers/iio/accel/bma180.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-lt3593.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/leds/leds-lt3593.ko drivers/leds/leds-lt3593.o drivers/leds/leds-lt3593.mod.o

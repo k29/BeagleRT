@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/adm1029.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/adm1029.ko drivers/hwmon/adm1029.o drivers/hwmon/adm1029.mod.o

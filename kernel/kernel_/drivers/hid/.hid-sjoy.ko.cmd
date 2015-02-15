@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-sjoy.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-sjoy.ko drivers/hid/hid-sjoy.o drivers/hid/hid-sjoy.mod.o

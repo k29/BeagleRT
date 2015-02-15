@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/mms114.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/mms114.ko drivers/input/touchscreen/mms114.o drivers/input/touchscreen/mms114.mod.o

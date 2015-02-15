@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ad_sigma_delta.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/adc/ad_sigma_delta.ko drivers/iio/adc/ad_sigma_delta.o drivers/iio/adc/ad_sigma_delta.mod.o

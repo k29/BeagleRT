@@ -1,0 +1,1 @@
+cmd_drivers/net/irda/old_belkin-sir.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/irda/old_belkin-sir.ko drivers/net/irda/old_belkin-sir.o drivers/net/irda/old_belkin-sir.mod.o

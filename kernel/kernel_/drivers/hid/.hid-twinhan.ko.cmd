@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-twinhan.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-twinhan.ko drivers/hid/hid-twinhan.o drivers/hid/hid-twinhan.mod.o

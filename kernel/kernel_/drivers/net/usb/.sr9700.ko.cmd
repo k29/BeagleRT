@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/sr9700.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/usb/sr9700.ko drivers/net/usb/sr9700.o drivers/net/usb/sr9700.mod.o

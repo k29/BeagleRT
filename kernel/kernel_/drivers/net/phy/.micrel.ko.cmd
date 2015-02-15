@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/micrel.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/phy/micrel.ko drivers/net/phy/micrel.o drivers/net/phy/micrel.mod.o

@@ -1,0 +1,1 @@
+cmd_net/sched/em_nbyte.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/em_nbyte.ko net/sched/em_nbyte.o net/sched/em_nbyte.mod.o

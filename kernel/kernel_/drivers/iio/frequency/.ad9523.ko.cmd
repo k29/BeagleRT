@@ -1,0 +1,1 @@
+cmd_drivers/iio/frequency/ad9523.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/frequency/ad9523.ko drivers/iio/frequency/ad9523.o drivers/iio/frequency/ad9523.mod.o

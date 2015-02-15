@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/adjd_s311.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/light/adjd_s311.ko drivers/iio/light/adjd_s311.o drivers/iio/light/adjd_s311.mod.o

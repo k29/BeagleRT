@@ -1,0 +1,1 @@
+cmd_drivers/usb/atm/ueagle-atm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/atm/ueagle-atm.ko drivers/usb/atm/ueagle-atm.o drivers/usb/atm/ueagle-atm.mod.o

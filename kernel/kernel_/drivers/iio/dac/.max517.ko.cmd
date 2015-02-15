@@ -1,0 +1,1 @@
+cmd_drivers/iio/dac/max517.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/dac/max517.ko drivers/iio/dac/max517.o drivers/iio/dac/max517.mod.o

@@ -1,0 +1,1 @@
+cmd_net/sched/act_simple.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/act_simple.ko net/sched/act_simple.o net/sched/act_simple.mod.o

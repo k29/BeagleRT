@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/guillemot.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/guillemot.ko drivers/input/joystick/guillemot.o drivers/input/joystick/guillemot.mod.o

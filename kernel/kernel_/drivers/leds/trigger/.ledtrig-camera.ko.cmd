@@ -1,0 +1,1 @@
+cmd_drivers/leds/trigger/ledtrig-camera.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/leds/trigger/ledtrig-camera.ko drivers/leds/trigger/ledtrig-camera.o drivers/leds/trigger/ledtrig-camera.mod.o

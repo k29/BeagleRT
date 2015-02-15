@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ti-adc081c.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/adc/ti-adc081c.ko drivers/iio/adc/ti-adc081c.o drivers/iio/adc/ti-adc081c.mod.o

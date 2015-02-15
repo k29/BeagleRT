@@ -1,0 +1,1 @@
+cmd_net/sctp/sctp_probe.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sctp/sctp_probe.ko net/sctp/sctp_probe.o net/sctp/sctp_probe.mod.o

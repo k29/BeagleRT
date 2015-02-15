@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/yurex.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/misc/yurex.ko drivers/usb/misc/yurex.o drivers/usb/misc/yurex.mod.o

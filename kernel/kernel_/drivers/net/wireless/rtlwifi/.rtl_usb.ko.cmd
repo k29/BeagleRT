@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/rtlwifi/rtl_usb.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/rtlwifi/rtl_usb.ko drivers/net/wireless/rtlwifi/rtl_usb.o drivers/net/wireless/rtlwifi/rtl_usb.mod.o

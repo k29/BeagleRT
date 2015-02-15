@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/edt-ft5x06.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/edt-ft5x06.ko drivers/input/touchscreen/edt-ft5x06.o drivers/input/touchscreen/edt-ft5x06.mod.o

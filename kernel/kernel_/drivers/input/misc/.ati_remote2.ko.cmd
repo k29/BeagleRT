@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/ati_remote2.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/ati_remote2.ko drivers/input/misc/ati_remote2.o drivers/input/misc/ati_remote2.mod.o

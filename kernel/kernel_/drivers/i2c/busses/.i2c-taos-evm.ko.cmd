@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-taos-evm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/i2c/busses/i2c-taos-evm.ko drivers/i2c/busses/i2c-taos-evm.o drivers/i2c/busses/i2c-taos-evm.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/tmdc.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/tmdc.ko drivers/input/joystick/tmdc.o drivers/input/joystick/tmdc.mod.o

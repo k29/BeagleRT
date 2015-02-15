@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/jc42.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/jc42.ko drivers/hwmon/jc42.o drivers/hwmon/jc42.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-switch.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/md/dm-switch.ko drivers/md/dm-switch.o drivers/md/dm-switch.mod.o

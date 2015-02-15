@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/stv06xx/gspca_stv06xx.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/stv06xx/gspca_stv06xx.ko drivers/media/usb/gspca/stv06xx/gspca_stv06xx.o drivers/media/usb/gspca/stv06xx/gspca_stv06xx.mod.o

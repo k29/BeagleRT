@@ -1,0 +1,1 @@
+cmd_drivers/staging/usbip/vhci-hcd.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/staging/usbip/vhci-hcd.ko drivers/staging/usbip/vhci-hcd.o drivers/staging/usbip/vhci-hcd.mod.o

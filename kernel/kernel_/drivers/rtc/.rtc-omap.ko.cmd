@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-omap.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-omap.ko drivers/rtc/rtc-omap.o drivers/rtc/rtc-omap.mod.o

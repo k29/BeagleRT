@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/adcxx.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/adcxx.ko drivers/hwmon/adcxx.o drivers/hwmon/adcxx.mod.o

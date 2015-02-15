@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/bma150.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/bma150.ko drivers/input/misc/bma150.o drivers/input/misc/bma150.mod.o

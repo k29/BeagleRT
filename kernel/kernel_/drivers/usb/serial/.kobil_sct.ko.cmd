@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/kobil_sct.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/kobil_sct.ko drivers/usb/serial/kobil_sct.o drivers/usb/serial/kobil_sct.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/ad7298.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/adc/ad7298.ko drivers/iio/adc/ad7298.o drivers/iio/adc/ad7298.mod.o

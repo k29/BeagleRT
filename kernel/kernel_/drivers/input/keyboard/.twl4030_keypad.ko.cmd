@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/twl4030_keypad.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/keyboard/twl4030_keypad.ko drivers/input/keyboard/twl4030_keypad.o drivers/input/keyboard/twl4030_keypad.mod.o

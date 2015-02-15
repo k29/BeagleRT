@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/cx24113.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/cx24113.ko drivers/media/dvb-frontends/cx24113.o drivers/media/dvb-frontends/cx24113.mod.o

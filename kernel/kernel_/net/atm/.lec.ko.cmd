@@ -1,0 +1,1 @@
+cmd_net/atm/lec.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/atm/lec.ko net/atm/lec.o net/atm/lec.mod.o

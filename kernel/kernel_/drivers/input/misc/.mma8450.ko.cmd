@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/mma8450.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/mma8450.ko drivers/input/misc/mma8450.o drivers/input/misc/mma8450.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/hid-sensor-gyro-3d.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/gyro/hid-sensor-gyro-3d.ko drivers/iio/gyro/hid-sensor-gyro-3d.o drivers/iio/gyro/hid-sensor-gyro-3d.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/ir-lirc-codec.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/ir-lirc-codec.ko drivers/media/rc/ir-lirc-codec.o drivers/media/rc/ir-lirc-codec.mod.o

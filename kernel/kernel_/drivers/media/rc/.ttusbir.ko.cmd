@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/ttusbir.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/ttusbir.ko drivers/media/rc/ttusbir.o drivers/media/rc/ttusbir.mod.o

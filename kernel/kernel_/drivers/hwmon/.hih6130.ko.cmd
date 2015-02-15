@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/hih6130.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/hih6130.ko drivers/hwmon/hih6130.o drivers/hwmon/hih6130.mod.o

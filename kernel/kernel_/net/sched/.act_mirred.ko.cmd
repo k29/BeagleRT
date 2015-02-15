@@ -1,0 +1,1 @@
+cmd_net/sched/act_mirred.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/act_mirred.ko net/sched/act_mirred.o net/sched/act_mirred.mod.o

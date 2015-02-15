@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc_ncm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/usb/cdc_ncm.ko drivers/net/usb/cdc_ncm.o drivers/net/usb/cdc_ncm.mod.o

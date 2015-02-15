@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ad7418.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/ad7418.ko drivers/hwmon/ad7418.o drivers/hwmon/ad7418.mod.o

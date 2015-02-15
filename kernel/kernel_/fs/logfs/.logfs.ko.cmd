@@ -1,0 +1,1 @@
+cmd_fs/logfs/logfs.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/logfs/logfs.ko fs/logfs/logfs.o fs/logfs/logfs.mod.o

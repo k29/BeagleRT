@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-pwm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/leds/leds-pwm.ko drivers/leds/leds-pwm.o drivers/leds/leds-pwm.mod.o

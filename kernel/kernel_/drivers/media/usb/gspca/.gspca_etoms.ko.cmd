@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_etoms.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/gspca_etoms.ko drivers/media/usb/gspca/gspca_etoms.o drivers/media/usb/gspca/gspca_etoms.mod.o

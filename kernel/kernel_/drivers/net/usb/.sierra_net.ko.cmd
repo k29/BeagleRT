@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/sierra_net.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/usb/sierra_net.ko drivers/net/usb/sierra_net.o drivers/net/usb/sierra_net.mod.o

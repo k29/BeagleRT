@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_vc032x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/gspca_vc032x.ko drivers/media/usb/gspca/gspca_vc032x.o drivers/media/usb/gspca/gspca_vc032x.mod.o

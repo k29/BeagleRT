@@ -1,0 +1,1 @@
+cmd_drivers/video/omap2/dss/omapdss.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/video/omap2/dss/omapdss.ko drivers/video/omap2/dss/omapdss.o drivers/video/omap2/dss/omapdss.mod.o

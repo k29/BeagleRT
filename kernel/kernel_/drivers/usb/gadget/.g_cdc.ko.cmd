@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/g_cdc.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/gadget/g_cdc.ko drivers/usb/gadget/g_cdc.o drivers/usb/gadget/g_cdc.mod.o

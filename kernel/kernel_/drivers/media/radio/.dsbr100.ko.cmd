@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/dsbr100.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/radio/dsbr100.ko drivers/media/radio/dsbr100.o drivers/media/radio/dsbr100.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-ds1553.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-ds1553.ko drivers/rtc/rtc-ds1553.o drivers/rtc/rtc-ds1553.mod.o

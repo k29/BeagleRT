@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-74x164.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/gpio/gpio-74x164.ko drivers/gpio/gpio-74x164.o drivers/gpio/gpio-74x164.mod.o

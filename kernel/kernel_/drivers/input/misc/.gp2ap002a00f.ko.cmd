@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/gp2ap002a00f.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/gp2ap002a00f.ko drivers/input/misc/gp2ap002a00f.o drivers/input/misc/gp2ap002a00f.mod.o

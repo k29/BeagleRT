@@ -1,0 +1,1 @@
+cmd_fs/nls/nls_iso8859-6.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nls/nls_iso8859-6.ko fs/nls/nls_iso8859-6.o fs/nls/nls_iso8859-6.mod.o

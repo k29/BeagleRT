@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-terratec-cinergy-xs.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-terratec-cinergy-xs.ko drivers/media/rc/keymaps/rc-terratec-cinergy-xs.o drivers/media/rc/keymaps/rc-terratec-cinergy-xs.mod.o

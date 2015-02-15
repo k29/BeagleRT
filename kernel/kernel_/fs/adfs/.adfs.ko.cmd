@@ -1,0 +1,1 @@
+cmd_fs/adfs/adfs.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/adfs/adfs.ko fs/adfs/adfs.o fs/adfs/adfs.mod.o

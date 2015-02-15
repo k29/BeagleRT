@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/max16064.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/pmbus/max16064.ko drivers/hwmon/pmbus/max16064.o drivers/hwmon/pmbus/max16064.mod.o

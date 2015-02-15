@@ -1,0 +1,1 @@
+cmd_net/sched/cls_basic.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/cls_basic.ko net/sched/cls_basic.o net/sched/cls_basic.mod.o

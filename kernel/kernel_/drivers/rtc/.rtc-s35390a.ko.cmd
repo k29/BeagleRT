@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-s35390a.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-s35390a.ko drivers/rtc/rtc-s35390a.o drivers/rtc/rtc-s35390a.mod.o

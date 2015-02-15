@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ad7879-spi.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ad7879-spi.ko drivers/input/touchscreen/ad7879-spi.o drivers/input/touchscreen/ad7879-spi.mod.o

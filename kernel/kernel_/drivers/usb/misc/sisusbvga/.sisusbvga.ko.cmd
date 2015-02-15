@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/sisusbvga/sisusbvga.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/misc/sisusbvga/sisusbvga.ko drivers/usb/misc/sisusbvga/sisusbvga.o drivers/usb/misc/sisusbvga/sisusbvga.mod.o

@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_limit.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebt_limit.ko net/bridge/netfilter/ebt_limit.o net/bridge/netfilter/ebt_limit.mod.o

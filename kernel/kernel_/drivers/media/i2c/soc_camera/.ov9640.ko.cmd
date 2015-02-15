@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/soc_camera/ov9640.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/i2c/soc_camera/ov9640.ko drivers/media/i2c/soc_camera/ov9640.o drivers/media/i2c/soc_camera/ov9640.mod.o

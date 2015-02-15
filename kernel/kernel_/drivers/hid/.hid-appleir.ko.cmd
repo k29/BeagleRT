@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-appleir.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-appleir.ko drivers/hid/hid-appleir.o drivers/hid/hid-appleir.mod.o

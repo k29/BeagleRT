@@ -1,0 +1,1 @@
+cmd_drivers/usb/phy/built-in.o :=  arm-linux-gnueabi-ld -EL    -r -o drivers/usb/phy/built-in.o drivers/usb/phy/phy.o drivers/usb/phy/of.o drivers/usb/phy/phy-generic.o drivers/usb/phy/phy-omap-control.o drivers/usb/phy/phy-am335x-control.o drivers/usb/phy/phy-am335x.o drivers/usb/phy/phy-omap-usb3.o drivers/usb/phy/phy-gpio-vbus-usb.o drivers/usb/phy/phy-ulpi.o 

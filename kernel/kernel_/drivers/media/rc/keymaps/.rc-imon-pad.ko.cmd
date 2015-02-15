@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-imon-pad.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-imon-pad.ko drivers/media/rc/keymaps/rc-imon-pad.o drivers/media/rc/keymaps/rc-imon-pad.mod.o

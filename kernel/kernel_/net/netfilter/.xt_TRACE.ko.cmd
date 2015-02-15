@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_TRACE.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/xt_TRACE.ko net/netfilter/xt_TRACE.o net/netfilter/xt_TRACE.mod.o

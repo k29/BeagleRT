@@ -1,0 +1,1 @@
+cmd_drivers/net/can/at91_can.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/can/at91_can.ko drivers/net/can/at91_can.o drivers/net/can/at91_can.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/atm/cxacru.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/atm/cxacru.ko drivers/usb/atm/cxacru.o drivers/usb/atm/cxacru.mod.o

@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_addrtype.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/xt_addrtype.ko net/netfilter/xt_addrtype.o net/netfilter/xt_addrtype.mod.o

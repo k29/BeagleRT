@@ -1,0 +1,1 @@
+cmd_fs/nls/mac-inuit.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nls/mac-inuit.ko fs/nls/mac-inuit.o fs/nls/mac-inuit.mod.o

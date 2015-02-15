@@ -1,0 +1,1 @@
+cmd_drivers/net/can/softing/softing.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/can/softing/softing.ko drivers/net/can/softing/softing.o drivers/net/can/softing/softing.mod.o

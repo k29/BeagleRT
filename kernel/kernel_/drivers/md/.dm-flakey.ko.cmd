@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-flakey.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/md/dm-flakey.ko drivers/md/dm-flakey.o drivers/md/dm-flakey.mod.o

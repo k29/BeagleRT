@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-holtek-mouse.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-holtek-mouse.ko drivers/hid/hid-holtek-mouse.o drivers/hid/hid-holtek-mouse.mod.o

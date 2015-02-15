@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/nf_nat_h323.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/ipv4/netfilter/nf_nat_h323.ko net/ipv4/netfilter/nf_nat_h323.o net/ipv4/netfilter/nf_nat_h323.mod.o

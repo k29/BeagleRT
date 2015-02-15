@@ -1,0 +1,1 @@
+cmd_drivers/misc/lis3lv02d/lis3lv02d_spi.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/misc/lis3lv02d/lis3lv02d_spi.ko drivers/misc/lis3lv02d/lis3lv02d_spi.o drivers/misc/lis3lv02d/lis3lv02d_spi.mod.o

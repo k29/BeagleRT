@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.ko drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.o drivers/media/usb/dvb-usb-v2/dvb-usb-mxl111sf.mod.o

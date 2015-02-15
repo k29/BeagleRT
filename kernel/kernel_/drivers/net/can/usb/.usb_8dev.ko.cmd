@@ -1,0 +1,1 @@
+cmd_drivers/net/can/usb/usb_8dev.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/can/usb/usb_8dev.ko drivers/net/can/usb/usb_8dev.o drivers/net/can/usb/usb_8dev.mod.o

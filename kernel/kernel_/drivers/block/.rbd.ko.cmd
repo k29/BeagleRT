@@ -1,0 +1,1 @@
+cmd_drivers/block/rbd.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/block/rbd.ko drivers/block/rbd.o drivers/block/rbd.mod.o

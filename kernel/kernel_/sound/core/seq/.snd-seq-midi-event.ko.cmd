@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-midi-event.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o sound/core/seq/snd-seq-midi-event.ko sound/core/seq/snd-seq-midi-event.o sound/core/seq/snd-seq-midi-event.mod.o

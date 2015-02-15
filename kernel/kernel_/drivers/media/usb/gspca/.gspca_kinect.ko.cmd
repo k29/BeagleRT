@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_kinect.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/gspca_kinect.ko drivers/media/usb/gspca/gspca_kinect.o drivers/media/usb/gspca/gspca_kinect.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/iio/frequency/adf4350.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/frequency/adf4350.ko drivers/iio/frequency/adf4350.o drivers/iio/frequency/adf4350.mod.o

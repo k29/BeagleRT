@@ -1,0 +1,1 @@
+cmd_drivers/net/can/c_can/c_can_platform.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/can/c_can/c_can_platform.ko drivers/net/can/c_can/c_can_platform.o drivers/net/can/c_can/c_can_platform.mod.o

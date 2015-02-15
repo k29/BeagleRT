@@ -1,0 +1,1 @@
+cmd_drivers/media/radio/saa7706h.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/radio/saa7706h.ko drivers/media/radio/saa7706h.o drivers/media/radio/saa7706h.mod.o

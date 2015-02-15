@@ -1,0 +1,1 @@
+cmd_drivers/mtd/mtdswap.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/mtd/mtdswap.ko drivers/mtd/mtdswap.o drivers/mtd/mtdswap.mod.o

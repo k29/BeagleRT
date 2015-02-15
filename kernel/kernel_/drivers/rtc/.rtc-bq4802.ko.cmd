@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-bq4802.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-bq4802.ko drivers/rtc/rtc-bq4802.o drivers/rtc/rtc-bq4802.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/mos7720.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/mos7720.ko drivers/usb/serial/mos7720.o drivers/usb/serial/mos7720.mod.o

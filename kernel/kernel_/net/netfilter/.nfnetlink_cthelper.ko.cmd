@@ -1,0 +1,1 @@
+cmd_net/netfilter/nfnetlink_cthelper.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/nfnetlink_cthelper.ko net/netfilter/nfnetlink_cthelper.o net/netfilter/nfnetlink_cthelper.mod.o

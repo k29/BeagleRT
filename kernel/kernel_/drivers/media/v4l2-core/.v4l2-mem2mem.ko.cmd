@@ -1,0 +1,1 @@
+cmd_drivers/media/v4l2-core/v4l2-mem2mem.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/v4l2-core/v4l2-mem2mem.ko drivers/media/v4l2-core/v4l2-mem2mem.o drivers/media/v4l2-core/v4l2-mem2mem.mod.o

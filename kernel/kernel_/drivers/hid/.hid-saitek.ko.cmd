@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-saitek.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-saitek.ko drivers/hid/hid-saitek.o drivers/hid/hid-saitek.mod.o

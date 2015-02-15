@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-ot200.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/leds/leds-ot200.ko drivers/leds/leds-ot200.o drivers/leds/leds-ot200.mod.o

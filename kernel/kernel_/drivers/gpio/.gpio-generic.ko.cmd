@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-generic.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/gpio/gpio-generic.ko drivers/gpio/gpio-generic.o drivers/gpio/gpio-generic.mod.o

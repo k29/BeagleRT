@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-speedlink.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-speedlink.ko drivers/hid/hid-speedlink.o drivers/hid/hid-speedlink.mod.o

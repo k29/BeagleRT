@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ti/wl1251/wl1251_sdio.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/ti/wl1251/wl1251_sdio.ko drivers/net/wireless/ti/wl1251/wl1251_sdio.o drivers/net/wireless/ti/wl1251/wl1251_sdio.mod.o

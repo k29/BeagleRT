@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/usb-serial-simple.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/usb-serial-simple.ko drivers/usb/serial/usb-serial-simple.o drivers/usb/serial/usb-serial-simple.mod.o

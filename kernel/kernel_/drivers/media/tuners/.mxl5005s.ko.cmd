@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/mxl5005s.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/tuners/mxl5005s.ko drivers/media/tuners/mxl5005s.o drivers/media/tuners/mxl5005s.mod.o

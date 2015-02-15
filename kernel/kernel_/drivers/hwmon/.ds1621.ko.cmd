@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ds1621.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/ds1621.ko drivers/hwmon/ds1621.o drivers/hwmon/ds1621.mod.o

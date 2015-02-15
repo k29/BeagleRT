@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/ax88179_178a.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/usb/ax88179_178a.ko drivers/net/usb/ax88179_178a.o drivers/net/usb/ax88179_178a.mod.o

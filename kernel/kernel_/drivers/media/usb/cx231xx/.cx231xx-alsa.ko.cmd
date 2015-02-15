@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/cx231xx/cx231xx-alsa.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/cx231xx/cx231xx-alsa.ko drivers/media/usb/cx231xx/cx231xx-alsa.o drivers/media/usb/cx231xx/cx231xx-alsa.mod.o

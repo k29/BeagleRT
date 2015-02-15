@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/ipheth.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/usb/ipheth.ko drivers/net/usb/ipheth.o drivers/net/usb/ipheth.mod.o

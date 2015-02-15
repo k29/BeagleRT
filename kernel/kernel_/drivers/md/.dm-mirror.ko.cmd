@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-mirror.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/md/dm-mirror.ko drivers/md/dm-mirror.o drivers/md/dm-mirror.mod.o

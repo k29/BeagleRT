@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/hdpvr/hdpvr.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/hdpvr/hdpvr.ko drivers/media/usb/hdpvr/hdpvr.o drivers/media/usb/hdpvr/hdpvr.mod.o

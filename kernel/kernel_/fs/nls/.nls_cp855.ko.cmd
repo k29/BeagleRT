@@ -1,0 +1,1 @@
+cmd_fs/nls/nls_cp855.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nls/nls_cp855.ko fs/nls/nls_cp855.o fs/nls/nls_cp855.mod.o

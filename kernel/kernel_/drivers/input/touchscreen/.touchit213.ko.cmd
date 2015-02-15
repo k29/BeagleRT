@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/touchit213.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/touchit213.ko drivers/input/touchscreen/touchit213.o drivers/input/touchscreen/touchit213.mod.o

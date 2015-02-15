@@ -1,0 +1,1 @@
+cmd_crypto/pcrypt.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o crypto/pcrypt.ko crypto/pcrypt.o crypto/pcrypt.mod.o

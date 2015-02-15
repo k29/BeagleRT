@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/amc6821.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/amc6821.ko drivers/hwmon/amc6821.o drivers/hwmon/amc6821.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/smsc75xx.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/usb/smsc75xx.ko drivers/net/usb/smsc75xx.o drivers/net/usb/smsc75xx.mod.o

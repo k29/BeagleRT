@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/zte_ev.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/zte_ev.ko drivers/usb/serial/zte_ev.o drivers/usb/serial/zte_ev.mod.o

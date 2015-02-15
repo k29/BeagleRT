@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/btwilink.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/bluetooth/btwilink.ko drivers/bluetooth/btwilink.o drivers/bluetooth/btwilink.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-cinergy.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-cinergy.ko drivers/media/rc/keymaps/rc-cinergy.o drivers/media/rc/keymaps/rc-cinergy.mod.o

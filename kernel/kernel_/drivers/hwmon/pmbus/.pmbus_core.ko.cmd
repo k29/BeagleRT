@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/pmbus_core.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/pmbus/pmbus_core.ko drivers/hwmon/pmbus/pmbus_core.o drivers/hwmon/pmbus/pmbus_core.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/mc13783-adc.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/mc13783-adc.ko drivers/hwmon/mc13783-adc.o drivers/hwmon/mc13783-adc.mod.o

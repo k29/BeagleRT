@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipvs/ip_vs_wrr.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/ipvs/ip_vs_wrr.ko net/netfilter/ipvs/ip_vs_wrr.o net/netfilter/ipvs/ip_vs_wrr.mod.o

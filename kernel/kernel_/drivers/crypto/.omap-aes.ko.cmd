@@ -1,0 +1,1 @@
+cmd_drivers/crypto/omap-aes.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/crypto/omap-aes.ko drivers/crypto/omap-aes.o drivers/crypto/omap-aes.mod.o

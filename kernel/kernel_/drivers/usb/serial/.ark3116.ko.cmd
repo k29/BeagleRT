@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/ark3116.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/ark3116.ko drivers/usb/serial/ark3116.o drivers/usb/serial/ark3116.mod.o

@@ -1,0 +1,1 @@
+cmd_net/sched/sch_gred.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/sch_gred.ko net/sched/sch_gred.o net/sched/sch_gred.mod.o

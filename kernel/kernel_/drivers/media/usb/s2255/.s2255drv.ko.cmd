@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/s2255/s2255drv.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/s2255/s2255drv.ko drivers/media/usb/s2255/s2255drv.o drivers/media/usb/s2255/s2255drv.mod.o

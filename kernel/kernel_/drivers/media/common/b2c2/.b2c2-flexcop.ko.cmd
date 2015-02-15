@@ -1,0 +1,1 @@
+cmd_drivers/media/common/b2c2/b2c2-flexcop.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/common/b2c2/b2c2-flexcop.ko drivers/media/common/b2c2/b2c2-flexcop.o drivers/media/common/b2c2/b2c2-flexcop.mod.o

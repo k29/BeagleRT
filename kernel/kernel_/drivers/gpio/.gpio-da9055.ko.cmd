@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-da9055.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/gpio/gpio-da9055.ko drivers/gpio/gpio-da9055.o drivers/gpio/gpio-da9055.mod.o

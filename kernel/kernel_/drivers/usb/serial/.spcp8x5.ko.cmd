@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/spcp8x5.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/spcp8x5.ko drivers/usb/serial/spcp8x5.o drivers/usb/serial/spcp8x5.mod.o

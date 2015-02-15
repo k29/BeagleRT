@@ -1,0 +1,1 @@
+cmd_drivers/power/da9052-battery.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/power/da9052-battery.ko drivers/power/da9052-battery.o drivers/power/da9052-battery.mod.o

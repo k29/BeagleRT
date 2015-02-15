@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-gyration.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-gyration.ko drivers/hid/hid-gyration.o drivers/hid/hid-gyration.mod.o

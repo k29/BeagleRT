@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-pca953x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/gpio/gpio-pca953x.ko drivers/gpio/gpio-pca953x.o drivers/gpio/gpio-pca953x.mod.o

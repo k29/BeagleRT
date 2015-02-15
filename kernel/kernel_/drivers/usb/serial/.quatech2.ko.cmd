@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/quatech2.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/quatech2.ko drivers/usb/serial/quatech2.o drivers/usb/serial/quatech2.mod.o

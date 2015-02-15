@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/cytherm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/misc/cytherm.ko drivers/usb/misc/cytherm.o drivers/usb/misc/cytherm.mod.o

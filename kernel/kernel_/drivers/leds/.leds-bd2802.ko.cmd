@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-bd2802.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/leds/leds-bd2802.ko drivers/leds/leds-bd2802.o drivers/leds/leds-bd2802.mod.o

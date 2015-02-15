@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/f71805f.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/f71805f.ko drivers/hwmon/f71805f.o drivers/hwmon/f71805f.mod.o

@@ -1,0 +1,1 @@
+cmd_net/core/netprio_cgroup.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/core/netprio_cgroup.ko net/core/netprio_cgroup.o net/core/netprio_cgroup.mod.o

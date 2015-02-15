@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/iguanair.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/iguanair.ko drivers/media/rc/iguanair.o drivers/media/rc/iguanair.mod.o

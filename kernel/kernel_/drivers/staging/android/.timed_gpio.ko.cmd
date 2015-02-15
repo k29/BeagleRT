@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/timed_gpio.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/staging/android/timed_gpio.ko drivers/staging/android/timed_gpio.o drivers/staging/android/timed_gpio.mod.o

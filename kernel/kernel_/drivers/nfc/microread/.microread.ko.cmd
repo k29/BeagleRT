@@ -1,0 +1,1 @@
+cmd_drivers/nfc/microread/microread.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/nfc/microread/microread.ko drivers/nfc/microread/microread.o drivers/nfc/microread/microread.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/w1/masters/omap_hdq.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/w1/masters/omap_hdq.ko drivers/w1/masters/omap_hdq.o drivers/w1/masters/omap_hdq.mod.o

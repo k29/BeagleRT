@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/eeti_ts.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/eeti_ts.ko drivers/input/touchscreen/eeti_ts.o drivers/input/touchscreen/eeti_ts.mod.o

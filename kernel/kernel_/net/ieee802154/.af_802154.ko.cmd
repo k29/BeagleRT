@@ -1,0 +1,1 @@
+cmd_net/ieee802154/af_802154.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/ieee802154/af_802154.ko net/ieee802154/af_802154.o net/ieee802154/af_802154.mod.o

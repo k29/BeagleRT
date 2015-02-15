@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/iptable_nat.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/ipv4/netfilter/iptable_nat.ko net/ipv4/netfilter/iptable_nat.o net/ipv4/netfilter/iptable_nat.mod.o

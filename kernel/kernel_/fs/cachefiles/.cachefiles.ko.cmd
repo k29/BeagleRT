@@ -1,0 +1,1 @@
+cmd_fs/cachefiles/cachefiles.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/cachefiles/cachefiles.ko fs/cachefiles/cachefiles.o fs/cachefiles/cachefiles.mod.o

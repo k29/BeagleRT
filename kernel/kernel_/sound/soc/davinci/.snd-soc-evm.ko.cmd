@@ -1,0 +1,1 @@
+cmd_sound/soc/davinci/snd-soc-evm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o sound/soc/davinci/snd-soc-evm.ko sound/soc/davinci/snd-soc-evm.o sound/soc/davinci/snd-soc-evm.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-queue-length.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/md/dm-queue-length.ko drivers/md/dm-queue-length.o drivers/md/dm-queue-length.mod.o

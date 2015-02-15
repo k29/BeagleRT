@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/gpio_tilt_polled.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/gpio_tilt_polled.ko drivers/input/misc/gpio_tilt_polled.o drivers/input/misc/gpio_tilt_polled.mod.o

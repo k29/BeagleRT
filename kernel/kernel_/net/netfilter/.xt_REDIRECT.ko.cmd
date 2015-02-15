@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_REDIRECT.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/xt_REDIRECT.ko net/netfilter/xt_REDIRECT.o net/netfilter/xt_REDIRECT.mod.o

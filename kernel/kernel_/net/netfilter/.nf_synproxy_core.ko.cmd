@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_synproxy_core.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/nf_synproxy_core.ko net/netfilter/nf_synproxy_core.o net/netfilter/nf_synproxy_core.mod.o

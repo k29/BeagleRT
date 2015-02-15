@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/pmbus/lm25066.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/pmbus/lm25066.ko drivers/hwmon/pmbus/lm25066.o drivers/hwmon/pmbus/lm25066.mod.o

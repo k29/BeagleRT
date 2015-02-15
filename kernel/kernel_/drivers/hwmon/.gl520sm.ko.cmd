@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/gl520sm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/gl520sm.ko drivers/hwmon/gl520sm.o drivers/hwmon/gl520sm.mod.o

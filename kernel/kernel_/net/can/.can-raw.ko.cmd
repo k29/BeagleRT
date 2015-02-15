@@ -1,0 +1,1 @@
+cmd_net/can/can-raw.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/can/can-raw.ko net/can/can-raw.o net/can/can-raw.mod.o

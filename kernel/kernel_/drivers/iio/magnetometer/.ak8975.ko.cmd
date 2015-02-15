@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/ak8975.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/magnetometer/ak8975.ko drivers/iio/magnetometer/ak8975.o drivers/iio/magnetometer/ak8975.mod.o

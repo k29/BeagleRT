@@ -1,0 +1,1 @@
+cmd_drivers/iio/magnetometer/hid-sensor-magn-3d.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/magnetometer/hid-sensor-magn-3d.ko drivers/iio/magnetometer/hid-sensor-magn-3d.o drivers/iio/magnetometer/hid-sensor-magn-3d.mod.o

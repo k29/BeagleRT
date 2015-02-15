@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc-phonet.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/usb/cdc-phonet.ko drivers/net/usb/cdc-phonet.o drivers/net/usb/cdc-phonet.mod.o

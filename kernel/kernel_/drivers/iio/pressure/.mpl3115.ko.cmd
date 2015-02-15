@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/mpl3115.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/pressure/mpl3115.ko drivers/iio/pressure/mpl3115.o drivers/iio/pressure/mpl3115.mod.o

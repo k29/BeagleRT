@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/soc_camera/soc_camera.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/platform/soc_camera/soc_camera.ko drivers/media/platform/soc_camera/soc_camera.o drivers/media/platform/soc_camera/soc_camera.mod.o

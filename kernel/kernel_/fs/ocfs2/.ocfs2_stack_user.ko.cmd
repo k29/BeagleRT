@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/ocfs2_stack_user.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/ocfs2/ocfs2_stack_user.ko fs/ocfs2/ocfs2_stack_user.o fs/ocfs2/ocfs2_stack_user.mod.o

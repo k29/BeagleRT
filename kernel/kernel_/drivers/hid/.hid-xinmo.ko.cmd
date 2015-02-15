@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-xinmo.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-xinmo.ko drivers/hid/hid-xinmo.o drivers/hid/hid-xinmo.mod.o

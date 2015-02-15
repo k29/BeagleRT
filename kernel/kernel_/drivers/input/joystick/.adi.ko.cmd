@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/adi.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/adi.ko drivers/input/joystick/adi.o drivers/input/joystick/adi.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/spaceball.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/spaceball.ko drivers/input/joystick/spaceball.o drivers/input/joystick/spaceball.mod.o

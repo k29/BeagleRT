@@ -1,0 +1,1 @@
+cmd_drivers/video/omap2/displays-new/connector-dvi.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/video/omap2/displays-new/connector-dvi.ko drivers/video/omap2/displays-new/connector-dvi.o drivers/video/omap2/displays-new/connector-dvi.mod.o

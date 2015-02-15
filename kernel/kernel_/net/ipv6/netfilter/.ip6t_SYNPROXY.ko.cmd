@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6t_SYNPROXY.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/ipv6/netfilter/ip6t_SYNPROXY.ko net/ipv6/netfilter/ip6t_SYNPROXY.o net/ipv6/netfilter/ip6t_SYNPROXY.mod.o

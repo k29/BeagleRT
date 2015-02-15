@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/davinci/vpfe_capture.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/platform/davinci/vpfe_capture.ko drivers/media/platform/davinci/vpfe_capture.o drivers/media/platform/davinci/vpfe_capture.mod.o

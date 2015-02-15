@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/cyberjack.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/cyberjack.ko drivers/usb/serial/cyberjack.o drivers/usb/serial/cyberjack.mod.o

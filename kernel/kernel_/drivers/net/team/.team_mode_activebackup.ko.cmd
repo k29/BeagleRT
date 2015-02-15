@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_activebackup.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/team/team_mode_activebackup.ko drivers/net/team/team_mode_activebackup.o drivers/net/team/team_mode_activebackup.mod.o

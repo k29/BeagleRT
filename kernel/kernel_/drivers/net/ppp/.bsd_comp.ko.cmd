@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/bsd_comp.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/ppp/bsd_comp.ko drivers/net/ppp/bsd_comp.o drivers/net/ppp/bsd_comp.mod.o

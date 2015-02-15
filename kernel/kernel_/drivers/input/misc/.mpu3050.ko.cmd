@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/mpu3050.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/misc/mpu3050.ko drivers/input/misc/mpu3050.o drivers/input/misc/mpu3050.mod.o

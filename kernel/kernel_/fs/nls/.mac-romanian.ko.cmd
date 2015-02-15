@@ -1,0 +1,1 @@
+cmd_fs/nls/mac-romanian.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nls/mac-romanian.ko fs/nls/mac-romanian.o fs/nls/mac-romanian.mod.o

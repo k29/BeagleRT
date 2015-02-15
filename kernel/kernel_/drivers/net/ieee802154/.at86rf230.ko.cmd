@@ -1,0 +1,1 @@
+cmd_drivers/net/ieee802154/at86rf230.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/ieee802154/at86rf230.ko drivers/net/ieee802154/at86rf230.o drivers/net/ieee802154/at86rf230.mod.o

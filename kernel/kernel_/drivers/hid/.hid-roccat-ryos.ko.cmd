@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-ryos.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-roccat-ryos.ko drivers/hid/hid-roccat-ryos.o drivers/hid/hid-roccat-ryos.mod.o

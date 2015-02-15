@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/cy8ctmg110_ts.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/cy8ctmg110_ts.ko drivers/input/touchscreen/cy8ctmg110_ts.o drivers/input/touchscreen/cy8ctmg110_ts.mod.o

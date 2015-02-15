@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gl860/gspca_gl860.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/gl860/gspca_gl860.ko drivers/media/usb/gspca/gl860/gspca_gl860.o drivers/media/usb/gspca/gl860/gspca_gl860.mod.o

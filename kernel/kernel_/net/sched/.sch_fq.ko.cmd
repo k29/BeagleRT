@@ -1,0 +1,1 @@
+cmd_net/sched/sch_fq.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/sch_fq.ko net/sched/sch_fq.o net/sched/sch_fq.mod.o

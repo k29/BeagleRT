@@ -1,0 +1,1 @@
+cmd_drivers/iio/temperature/tmp006.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/temperature/tmp006.ko drivers/iio/temperature/tmp006.o drivers/iio/temperature/tmp006.mod.o

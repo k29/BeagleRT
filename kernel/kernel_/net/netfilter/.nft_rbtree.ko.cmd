@@ -1,0 +1,1 @@
+cmd_net/netfilter/nft_rbtree.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/nft_rbtree.ko net/netfilter/nft_rbtree.o net/netfilter/nft_rbtree.mod.o

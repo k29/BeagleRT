@@ -1,0 +1,1 @@
+cmd_drivers/iio/kfifo_buf.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/kfifo_buf.ko drivers/iio/kfifo_buf.o drivers/iio/kfifo_buf.mod.o

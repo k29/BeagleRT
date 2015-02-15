@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/amd.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/phy/amd.ko drivers/net/phy/amd.o drivers/net/phy/amd.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/dma/timb_dma.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/dma/timb_dma.ko drivers/dma/timb_dma.o drivers/dma/timb_dma.mod.o

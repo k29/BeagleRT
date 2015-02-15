@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_hash_ipportip.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/ipset/ip_set_hash_ipportip.ko net/netfilter/ipset/ip_set_hash_ipportip.o net/netfilter/ipset/ip_set_hash_ipportip.mod.o

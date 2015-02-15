@@ -1,0 +1,1 @@
+cmd_drivers/video/cfbfillrect.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/video/cfbfillrect.ko drivers/video/cfbfillrect.o drivers/video/cfbfillrect.mod.o

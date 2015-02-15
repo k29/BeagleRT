@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-logitech-dj.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-logitech-dj.ko drivers/hid/hid-logitech-dj.o drivers/hid/hid-logitech-dj.mod.o

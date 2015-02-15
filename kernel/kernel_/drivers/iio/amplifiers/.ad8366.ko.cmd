@@ -1,0 +1,1 @@
+cmd_drivers/iio/amplifiers/ad8366.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/amplifiers/ad8366.ko drivers/iio/amplifiers/ad8366.o drivers/iio/amplifiers/ad8366.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/ced1401/cedusb.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/staging/ced1401/cedusb.ko drivers/staging/ced1401/cedusb.o drivers/staging/ced1401/cedusb.mod.o

@@ -1,0 +1,1 @@
+cmd_net/ieee802154/6lowpan_iphc.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/ieee802154/6lowpan_iphc.ko net/ieee802154/6lowpan_iphc.o net/ieee802154/6lowpan_iphc.mod.o

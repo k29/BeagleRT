@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/ath/ath6kl/ath6kl_sdio.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/ath/ath6kl/ath6kl_sdio.ko drivers/net/wireless/ath/ath6kl/ath6kl_sdio.o drivers/net/wireless/ath/ath6kl/ath6kl_sdio.mod.o

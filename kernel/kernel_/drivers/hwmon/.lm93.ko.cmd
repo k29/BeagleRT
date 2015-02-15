@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/lm93.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/lm93.ko drivers/hwmon/lm93.o drivers/hwmon/lm93.mod.o

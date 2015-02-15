@@ -1,0 +1,1 @@
+cmd_drivers/media/mmc/siano/smssdio.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/mmc/siano/smssdio.ko drivers/media/mmc/siano/smssdio.o drivers/media/mmc/siano/smssdio.mod.o

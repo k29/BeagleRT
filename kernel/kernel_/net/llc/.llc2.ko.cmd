@@ -1,0 +1,1 @@
+cmd_net/llc/llc2.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/llc/llc2.ko net/llc/llc2.o net/llc/llc2.mod.o

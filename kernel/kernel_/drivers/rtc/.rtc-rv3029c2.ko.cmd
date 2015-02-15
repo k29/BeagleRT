@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-rv3029c2.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/rtc/rtc-rv3029c2.ko drivers/rtc/rtc-rv3029c2.o drivers/rtc/rtc-rv3029c2.mod.o

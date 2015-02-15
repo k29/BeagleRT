@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/spaceorb.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/spaceorb.ko drivers/input/joystick/spaceorb.o drivers/input/joystick/spaceorb.mod.o

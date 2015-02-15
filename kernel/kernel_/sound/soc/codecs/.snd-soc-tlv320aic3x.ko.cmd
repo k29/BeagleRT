@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-tlv320aic3x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o sound/soc/codecs/snd-soc-tlv320aic3x.ko sound/soc/codecs/snd-soc-tlv320aic3x.o sound/soc/codecs/snd-soc-tlv320aic3x.mod.o

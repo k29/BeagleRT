@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-tivo.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-tivo.ko drivers/hid/hid-tivo.o drivers/hid/hid-tivo.mod.o

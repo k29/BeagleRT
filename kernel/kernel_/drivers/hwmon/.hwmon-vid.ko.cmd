@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/hwmon-vid.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/hwmon-vid.ko drivers/hwmon/hwmon-vid.o drivers/hwmon/hwmon-vid.mod.o

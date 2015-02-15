@@ -1,0 +1,1 @@
+cmd_drivers/net/virtio_net.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/virtio_net.ko drivers/net/virtio_net.o drivers/net/virtio_net.mod.o

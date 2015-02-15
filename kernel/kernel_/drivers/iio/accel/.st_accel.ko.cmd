@@ -1,0 +1,1 @@
+cmd_drivers/iio/accel/st_accel.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/accel/st_accel.ko drivers/iio/accel/st_accel.o drivers/iio/accel/st_accel.mod.o

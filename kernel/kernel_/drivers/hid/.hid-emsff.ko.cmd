@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-emsff.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-emsff.ko drivers/hid/hid-emsff.o drivers/hid/hid-emsff.mod.o

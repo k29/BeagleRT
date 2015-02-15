@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/et1011c.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/phy/et1011c.ko drivers/net/phy/et1011c.o drivers/net/phy/et1011c.mod.o

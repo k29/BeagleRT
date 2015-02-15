@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/gpio_keys.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/keyboard/gpio_keys.ko drivers/input/keyboard/gpio_keys.o drivers/input/keyboard/gpio_keys.mod.o

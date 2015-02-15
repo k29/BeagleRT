@@ -1,0 +1,1 @@
+cmd_drivers/iio/gyro/adis16136.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/gyro/adis16136.ko drivers/iio/gyro/adis16136.o drivers/iio/gyro/adis16136.mod.o

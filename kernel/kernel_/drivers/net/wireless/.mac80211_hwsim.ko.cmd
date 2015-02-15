@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mac80211_hwsim.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/wireless/mac80211_hwsim.ko drivers/net/wireless/mac80211_hwsim.o drivers/net/wireless/mac80211_hwsim.mod.o

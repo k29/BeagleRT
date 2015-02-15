@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/adt7310.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/adt7310.ko drivers/hwmon/adt7310.o drivers/hwmon/adt7310.mod.o

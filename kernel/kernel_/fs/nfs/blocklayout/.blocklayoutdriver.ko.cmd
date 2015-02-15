@@ -1,0 +1,1 @@
+cmd_fs/nfs/blocklayout/blocklayoutdriver.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nfs/blocklayout/blocklayoutdriver.ko fs/nfs/blocklayout/blocklayoutdriver.o fs/nfs/blocklayout/blocklayoutdriver.mod.o

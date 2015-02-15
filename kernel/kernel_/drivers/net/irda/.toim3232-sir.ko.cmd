@@ -1,0 +1,1 @@
+cmd_drivers/net/irda/toim3232-sir.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/irda/toim3232-sir.ko drivers/net/irda/toim3232-sir.o drivers/net/irda/toim3232-sir.mod.o

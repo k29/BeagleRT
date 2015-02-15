@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-primax.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-primax.ko drivers/hid/hid-primax.o drivers/hid/hid-primax.mod.o

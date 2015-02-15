@@ -1,0 +1,1 @@
+cmd_drivers/iio/dac/mcp4725.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/dac/mcp4725.ko drivers/iio/dac/mcp4725.o drivers/iio/dac/mcp4725.mod.o

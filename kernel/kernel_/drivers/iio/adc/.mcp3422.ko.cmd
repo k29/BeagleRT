@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/mcp3422.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/adc/mcp3422.ko drivers/iio/adc/mcp3422.o drivers/iio/adc/mcp3422.mod.o

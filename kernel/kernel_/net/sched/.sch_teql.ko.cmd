@@ -1,0 +1,1 @@
+cmd_net/sched/sch_teql.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/sch_teql.ko net/sched/sch_teql.o net/sched/sch_teql.mod.o

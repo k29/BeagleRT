@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-ortek.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hid/hid-ortek.ko drivers/hid/hid-ortek.o drivers/hid/hid-ortek.mod.o

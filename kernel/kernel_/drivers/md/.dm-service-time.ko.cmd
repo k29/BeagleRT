@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-service-time.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/md/dm-service-time.ko drivers/md/dm-service-time.o drivers/md/dm-service-time.mod.o

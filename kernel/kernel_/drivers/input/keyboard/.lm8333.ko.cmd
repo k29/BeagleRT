@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/lm8333.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/keyboard/lm8333.ko drivers/input/keyboard/lm8333.o drivers/input/keyboard/lm8333.mod.o

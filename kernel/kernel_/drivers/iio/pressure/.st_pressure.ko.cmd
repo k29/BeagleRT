@@ -1,0 +1,1 @@
+cmd_drivers/iio/pressure/st_pressure.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/pressure/st_pressure.ko drivers/iio/pressure/st_pressure.o drivers/iio/pressure/st_pressure.mod.o

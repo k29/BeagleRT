@@ -1,0 +1,1 @@
+cmd_drivers/iio/trigger/iio-trig-sysfs.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/trigger/iio-trig-sysfs.ko drivers/iio/trigger/iio-trig-sysfs.o drivers/iio/trigger/iio-trig-sysfs.mod.o

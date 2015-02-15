@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/lm95245.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/lm95245.ko drivers/hwmon/lm95245.o drivers/hwmon/lm95245.mod.o

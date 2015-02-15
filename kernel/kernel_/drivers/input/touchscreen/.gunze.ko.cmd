@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/gunze.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/gunze.ko drivers/input/touchscreen/gunze.o drivers/input/touchscreen/gunze.mod.o

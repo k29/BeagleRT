@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-pinnacle-pctv-hd.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-pinnacle-pctv-hd.ko drivers/media/rc/keymaps/rc-pinnacle-pctv-hd.o drivers/media/rc/keymaps/rc-pinnacle-pctv-hd.mod.o

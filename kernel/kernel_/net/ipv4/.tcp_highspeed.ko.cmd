@@ -1,0 +1,1 @@
+cmd_net/ipv4/tcp_highspeed.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/ipv4/tcp_highspeed.ko net/ipv4/tcp_highspeed.o net/ipv4/tcp_highspeed.mod.o

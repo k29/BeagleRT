@@ -1,0 +1,1 @@
+cmd_net/atm/pppoatm.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/atm/pppoatm.ko net/atm/pppoatm.o net/atm/pppoatm.mod.o

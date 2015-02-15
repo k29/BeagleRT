@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/magellan.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/input/joystick/magellan.ko drivers/input/joystick/magellan.o drivers/input/joystick/magellan.mod.o

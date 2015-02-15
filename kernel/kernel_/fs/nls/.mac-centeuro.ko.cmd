@@ -1,0 +1,1 @@
+cmd_fs/nls/mac-centeuro.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o fs/nls/mac-centeuro.ko fs/nls/mac-centeuro.o fs/nls/mac-centeuro.mod.o

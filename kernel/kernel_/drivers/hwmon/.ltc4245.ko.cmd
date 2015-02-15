@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/ltc4245.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/ltc4245.ko drivers/hwmon/ltc4245.o drivers/hwmon/ltc4245.mod.o

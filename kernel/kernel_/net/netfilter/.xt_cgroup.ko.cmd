@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_cgroup.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/xt_cgroup.ko net/netfilter/xt_cgroup.o net/netfilter/xt_cgroup.mod.o

@@ -1,0 +1,1 @@
+cmd_net/sched/em_meta.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/sched/em_meta.ko net/sched/em_meta.o net/sched/em_meta.mod.o

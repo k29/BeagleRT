@@ -1,0 +1,1 @@
+cmd_drivers/iio/industrialio.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/iio/industrialio.ko drivers/iio/industrialio.o drivers/iio/industrialio.mod.o

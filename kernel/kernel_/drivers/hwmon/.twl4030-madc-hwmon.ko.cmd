@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/twl4030-madc-hwmon.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/twl4030-madc-hwmon.ko drivers/hwmon/twl4030-madc-hwmon.o drivers/hwmon/twl4030-madc-hwmon.mod.o

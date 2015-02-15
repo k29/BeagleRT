@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/g760a.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/hwmon/g760a.ko drivers/hwmon/g760a.o drivers/hwmon/g760a.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/md/bcache/bcache.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/md/bcache/bcache.ko drivers/md/bcache/bcache.o drivers/md/bcache/bcache.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/iuu_phoenix.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/usb/serial/iuu_phoenix.ko drivers/usb/serial/iuu_phoenix.o drivers/usb/serial/iuu_phoenix.mod.o

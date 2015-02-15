@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-gotview7135.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-gotview7135.ko drivers/media/rc/keymaps/rc-gotview7135.o drivers/media/rc/keymaps/rc-gotview7135.mod.o

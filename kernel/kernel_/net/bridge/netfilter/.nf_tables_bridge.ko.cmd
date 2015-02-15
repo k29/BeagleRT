@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/nf_tables_bridge.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/bridge/netfilter/nf_tables_bridge.ko net/bridge/netfilter/nf_tables_bridge.o net/bridge/netfilter/nf_tables_bridge.mod.o

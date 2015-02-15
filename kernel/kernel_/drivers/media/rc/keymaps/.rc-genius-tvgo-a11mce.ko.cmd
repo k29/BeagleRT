@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-genius-tvgo-a11mce.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-genius-tvgo-a11mce.ko drivers/media/rc/keymaps/rc-genius-tvgo-a11mce.o drivers/media/rc/keymaps/rc-genius-tvgo-a11mce.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-mcp23s08.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/gpio/gpio-mcp23s08.ko drivers/gpio/gpio-mcp23s08.o drivers/gpio/gpio-mcp23s08.mod.o

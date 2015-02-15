@@ -1,0 +1,1 @@
+cmd_drivers/pps/clients/pps-gpio.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/pps/clients/pps-gpio.ko drivers/pps/clients/pps-gpio.o drivers/pps/clients/pps-gpio.mod.o

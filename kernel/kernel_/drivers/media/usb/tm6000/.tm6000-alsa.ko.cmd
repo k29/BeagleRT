@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/tm6000/tm6000-alsa.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/tm6000/tm6000-alsa.ko drivers/media/usb/tm6000/tm6000-alsa.o drivers/media/usb/tm6000/tm6000-alsa.mod.o

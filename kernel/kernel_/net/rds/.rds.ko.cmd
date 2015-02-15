@@ -1,0 +1,1 @@
+cmd_net/rds/rds.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/rds/rds.ko net/rds/rds.o net/rds/rds.mod.o

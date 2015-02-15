@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_tables_inet.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/nf_tables_inet.ko net/netfilter/nf_tables_inet.o net/netfilter/nf_tables_inet.mod.o

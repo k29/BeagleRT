@@ -1,0 +1,1 @@
+cmd_drivers/net/irda/ks959-sir.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/net/irda/ks959-sir.ko drivers/net/irda/ks959-sir.o drivers/net/irda/ks959-sir.mod.o

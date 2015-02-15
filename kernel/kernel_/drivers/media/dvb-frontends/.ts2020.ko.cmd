@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/ts2020.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/ts2020.ko drivers/media/dvb-frontends/ts2020.o drivers/media/dvb-frontends/ts2020.mod.o

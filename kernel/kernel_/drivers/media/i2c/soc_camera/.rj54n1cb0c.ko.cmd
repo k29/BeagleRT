@@ -1,0 +1,1 @@
+cmd_drivers/media/i2c/soc_camera/rj54n1cb0c.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/i2c/soc_camera/rj54n1cb0c.ko drivers/media/i2c/soc_camera/rj54n1cb0c.o drivers/media/i2c/soc_camera/rj54n1cb0c.mod.o

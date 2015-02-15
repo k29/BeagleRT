@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-m920x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb/dvb-usb-m920x.ko drivers/media/usb/dvb-usb/dvb-usb-m920x.o drivers/media/usb/dvb-usb/dvb-usb-m920x.mod.o

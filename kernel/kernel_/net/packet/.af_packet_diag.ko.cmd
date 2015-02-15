@@ -1,0 +1,1 @@
+cmd_net/packet/af_packet_diag.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/packet/af_packet_diag.ko net/packet/af_packet_diag.o net/packet/af_packet_diag.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv090x.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/stv090x.ko drivers/media/dvb-frontends/stv090x.o drivers/media/dvb-frontends/stv090x.mod.o

@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_TCPOPTSTRIP.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o net/netfilter/xt_TCPOPTSTRIP.ko net/netfilter/xt_TCPOPTSTRIP.o net/netfilter/xt_TCPOPTSTRIP.mod.o

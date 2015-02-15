@@ -1,0 +1,1 @@
+cmd_drivers/target/target_core_iblock.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/target/target_core_iblock.ko drivers/target/target_core_iblock.o drivers/target/target_core_iblock.mod.o

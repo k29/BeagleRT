@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-dac124s085.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/leds/leds-dac124s085.ko drivers/leds/leds-dac124s085.o drivers/leds/leds-dac124s085.mod.o

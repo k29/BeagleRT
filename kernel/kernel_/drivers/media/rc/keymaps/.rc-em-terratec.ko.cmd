@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/keymaps/rc-em-terratec.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o drivers/media/rc/keymaps/rc-em-terratec.ko drivers/media/rc/keymaps/rc-em-terratec.o drivers/media/rc/keymaps/rc-em-terratec.mod.o

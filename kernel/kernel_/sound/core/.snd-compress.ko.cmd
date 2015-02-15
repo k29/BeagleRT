@@ -1,0 +1,1 @@
+cmd_sound/core/snd-compress.ko := arm-linux-gnueabi-ld -EL -r  -T /home/kaustubh/BeagleRT/vanillaKernel/kbuild/kernel/kernel/scripts/module-common.lds --build-id  -o sound/core/snd-compress.ko sound/core/snd-compress.o sound/core/snd-compress.mod.o
