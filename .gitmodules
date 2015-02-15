@@ -1,0 +1,3 @@
+[submodule "vanillaKernel/kbuild/kernel"]
+	path = vanillaKernel/kbuild/kernel
+	url = git://github.com/beagleboard/kernel.git
