@@ -7,7 +7,6 @@ Building a kernel for Beagle Bone consists mainly of the followign steps:
 - Porting the built image to BeagleBone
 
 The devlopment folder VanillaKernel contains:
-- toolchain: mainly for the cross compile
 - uboot: used for building the mkimage program
 - kbuild: used for buildign the kernel
 
@@ -41,6 +40,8 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- uImage dtbs LOADADDR=0x80008000 -
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules -j4
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- INSTALL_MOD_PATH=/home/cpeacock/export/rootfs modules_install
 </code></pre>
+
+This kernel does not have the PREEMPT option or the PREEMPT_RT patches. 
 
 
 
